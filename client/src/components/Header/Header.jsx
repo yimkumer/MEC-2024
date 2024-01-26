@@ -17,7 +17,7 @@ const Header = () => {
                           style={{ width: 70, height: 70 }}
                           src="assets/acharya.png"
                           className="attachment-full size-full"
-                          alt=""
+                          alt="Acharya logo"
                         />{" "}
                       </a>
                     </div>
