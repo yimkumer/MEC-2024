@@ -135,7 +135,7 @@ app.get("/view-form", async (req, res) => {
     res.json(result.rows);
   } catch (error) {
     console.error("Error getting data:", error);
-    res.status(500).json({ error: "Internal Server Error" });
+    res.status(500).json({ error: "Internal Server  : Cannot View" });
   }
 });
 
