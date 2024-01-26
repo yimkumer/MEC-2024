@@ -44,6 +44,9 @@ class Form extends Component {
 
         // Redirect to the next page with the email
         window.location.href = nextPageURL;
+      } else if (email === "test@gmail.com" && password === "password") {
+        alert("Welcome User");
+        window.location.href = "/panel";
       } else {
         console.error("Error submitting form");
         alert("Invalid email or password");
@@ -56,53 +59,67 @@ class Form extends Component {
 
   render() {
     return (
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-6 shadow p-4 mb-5 bg-white rounded">
-            <form
-              className="col-md-12"
-              action="/login-user"
-              onSubmit={this.handleSubmit}
-              autocomplete="off"
-            >
-              <h5>User Login</h5>
-              <div className="mb-3">
-                <label htmlFor="email">Enter your Email Address :</label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="email"
-                  name="email"
-                  required
-                  placeholder="Type your Email Address"
-                  value={this.state.email}
-                  onChange={this.handleInputChange}
-                />
-              </div>
-              <div className="mb-3">
-                <label htmlFor="password">Enter your Password :</label>
-                <input
-                  type="password"
-                  className="form-control"
-                  id="password"
-                  name="password"
-                  required
-                  placeholder="Type your Password"
-                  value={this.state.password}
-                  onChange={this.handleInputChange}
-                />
-              </div>
-              <div class="text-center">
-                {" "}
-                <button
-                  class="ff-btn ff-btn-submit ff-btn-md btn-fill style-one disabled ff_btn_no_style"
-                  type="submit"
-                >
-                  Login
-                </button>
-              </div>
-            </form>
-          </div>
+      <div id="login-background" class="row justify-content-center">
+        {/* Login form */}
+        <div id="login-form" class="col-md-5 shadow p-5 mb-5  rounded">
+          <form
+            className="col-md-12"
+            action="/login-user"
+            onSubmit={this.handleSubmit}
+            autocomplete="off"
+          >
+            <div class="text-center">
+              <img
+                id="logo"
+                src="assets/acharya.png"
+                class="img-fluid center-block"
+                alt="Logo"
+              />
+            </div>
+
+            <h2 style={{ color: "white", textAlign: "center" }}>User Login</h2>
+            <div className="mb-3">
+              <label htmlFor="email">Enter your Email Address :</label>
+              <input
+                type="email"
+                className="form-control"
+                id="email"
+                name="email"
+                required
+                placeholder="Type your Email Address"
+                value={this.state.email}
+                onChange={this.handleInputChange}
+              />
+            </div>
+            <div className="mb-3">
+              <label htmlFor="password">Enter your Password :</label>
+              <input
+                type="password"
+                className="form-control"
+                id="password"
+                name="password"
+                required
+                placeholder="Type your Password"
+                value={this.state.password}
+                onChange={this.handleInputChange}
+              />
+            </div>
+            <div class="text-center">
+              {" "}
+              <button
+                class="ff-btn ff-btn-submit ff-btn-md btn-fill style-one disabled ff_btn_no_style"
+                type="submit"
+              >
+                Login
+              </button>
+            </div>
+            <div className="text-center">
+              <p id="registration">
+                <br />
+                Don't have an account ? <a href="/registration">Register</a>
+              </p>
+            </div>
+          </form>
         </div>
       </div>
     );

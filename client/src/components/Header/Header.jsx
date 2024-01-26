@@ -660,7 +660,7 @@ const Header = () => {
                                         </li>
                                     </ul> */}
                   <div
-                    className="hero-btns wow fadeInUp"
+                    className="logout-btn"
                     data-wow-delay="1.5s"
                     data-wow-duration="1s"
                   >

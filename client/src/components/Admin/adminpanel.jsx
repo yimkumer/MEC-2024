@@ -38,8 +38,8 @@ const Adminconsole = () => {
 
   return (
     <Fragment>
-      <h2>Data Table</h2>
-      <div class="container ">
+      <h1 className="text-center mt-5">Data Table</h1>
+      <div id="admin-table" class="container">
         <table class="table table-hover table-responsive">
           <thead>
             <tr>

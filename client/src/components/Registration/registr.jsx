@@ -71,6 +71,14 @@ const Register = () => {
                 <li>Full Paper Acceptance: March 15, 2024</li>
               </ul>
 
+              {/* CONTACTS*/}
+              <h5 className="heading-title">Contact Details :</h5>
+              <ul>
+                <li>Prof. Archana Vijay, Coordinator , 96208 00087</li>
+                <li>Prof. Suhas Patel, Coordinator , 96326 09776</li>
+                <li>Prof. Channakeshava H C, Coordinator , 90358 40001</li>
+              </ul>
+
               <div
                 className="elementor-element elementor-element-ab7cb93 elementor-align-left elementor-widget elementor-widget-rt-title"
                 data-id="ab7cb93"
