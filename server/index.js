@@ -9,12 +9,17 @@ app.use(cors());
 app.use(express.json());
 
 // PostgreSQL connection pool
+// const pool = new Pool({
+//   user: "postgres",
+//   host: "localhost",
+//   password: "root",
+//   port: "5432",
+//   database: "mec", // Change if your PostgreSQL server uses a different port
+// });
+
+//VERCEL POSTGRESQL connection
 const pool = new Pool({
-  user: "postgres",
-  host: "localhost",
-  password: "root",
-  port: "5432",
-  database: "mec", // Change if your PostgreSQL server uses a different port
+  connectionString: process.env.POSTGRES_URL + "?sslmode=require",
 });
 
 //Display particular user data
