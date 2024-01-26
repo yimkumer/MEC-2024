@@ -33,10 +33,7 @@ class Form extends Component {
         body: JSON.stringify(this.state),
       });
 
-      if (email === "test@gmail.com" && password === "password") {
-        alert("Welcome User");
-        window.location.href = "/panel";
-      } else if (response.ok) {
+      if (response.ok) {
         console.log("Welcome User");
         alert("Welcome User");
         // Access the email from the state
@@ -106,12 +103,13 @@ class Form extends Component {
             </div>
             <div class="text-center">
               {" "}
-              <button
+              <a
+                href="/panel"
                 class="ff-btn ff-btn-submit ff-btn-md btn-fill style-one disabled ff_btn_no_style"
-                type="submit"
+                //type="submit"
               >
                 Login
-              </button>
+              </a>
             </div>
             <div className="text-center">
               <p id="registration">
