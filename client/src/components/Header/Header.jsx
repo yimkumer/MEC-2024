@@ -16,6 +16,7 @@ const Header = () => {
                         <img
                           style={{ width: 70, height: 70 }}
                           src="./assets/acharya.png"
+                          className="attachment-full size-full"
                           alt="Acharya logo"
                         />{" "}
                       </a>
@@ -663,11 +664,7 @@ const Header = () => {
                     data-wow-delay="1.5s"
                     data-wow-duration="1s"
                   >
-                    <a
-                      href="/Login"
-                      className="btn-fill style-five"
-                      style={{ marginRight: "10px" }}
-                    >
+                    <a href="/Login" className="btn-fill style-eight">
                       User Login
                     </a>
                     <a href="/Admin" className="btn-fill style-eight">
