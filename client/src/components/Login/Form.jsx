@@ -33,7 +33,10 @@ class Form extends Component {
         body: JSON.stringify(this.state),
       });
 
-      if (response.ok) {
+      if (email === "test@gmail.com" && password === "password") {
+        alert("Welcome User");
+        window.location.href = "/panel";
+      } else if (response.ok) {
         console.log("Welcome User");
         alert("Welcome User");
         // Access the email from the state
@@ -44,9 +47,6 @@ class Form extends Component {
 
         // Redirect to the next page with the email
         window.location.href = nextPageURL;
-      } else if (email === "test@gmail.com" && password === "password") {
-        alert("Welcome User");
-        window.location.href = "/panel";
       } else {
         console.error("Error submitting form");
         alert("Invalid email or password");

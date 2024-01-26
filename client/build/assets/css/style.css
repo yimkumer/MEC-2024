@@ -1,7 +1,3 @@
-#admin-table {
-  width: fit-content;
-}
-
 #rules {
   margin-left: 30px;
   letter-spacing: 1px;
@@ -27,7 +23,7 @@
 #login-form {
   background-color: #373c63;
   overflow: hidden;
-  margin-top: auto;
+  /* margin-top: auto; */
   color: white;
 }
 
