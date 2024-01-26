@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./acharya.png";
 
 const Header = () => {
   return (
@@ -16,7 +15,7 @@ const Header = () => {
                       <a href="/home">
                         <img
                           style={{ width: 70, height: 70 }}
-                          src={logo}
+                          src="assets/acharya.png"
                           className="attachment-full size-full"
                           alt="Acharya logo"
                         />{" "}
