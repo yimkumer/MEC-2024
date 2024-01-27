@@ -14,11 +14,12 @@ const Header = () => {
                     <div className="header-logo logo-1 logo-light">
                       <a href="/home">
                         <img
-                          style={{ width: 70, height: 70 }}
-                          src="./assets/acharya.png"
+                          style={{ height: "200%", width: "500%" }}
+                          src="assets/wa.png"
                           className="attachment-full size-full"
-                          alt="Acharya logo"
-                        />{" "}
+                          alt=""
+                          decoding="async"
+                        />
                       </a>
                     </div>
                     <div className="header-logo logo-2 logo-dark">
@@ -659,7 +660,9 @@ const Header = () => {
                                             </div>
                                         </li>
                                     </ul> */}
-                  <div
+
+                  {/* USER PANEL AND ADMIN PANEL Btn */}
+                  {/* <div
                     className="logout-btn"
                     data-wow-delay="1.5s"
                     data-wow-duration="1s"
@@ -670,7 +673,7 @@ const Header = () => {
                     <a href="/Admin" className="btn-fill style-eight">
                       Admin Login
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

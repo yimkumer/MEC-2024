@@ -36,6 +36,7 @@ class Form extends Component {
       if (response.ok) {
         console.log("Welcome User");
         alert("Welcome User");
+
         // Access the email from the state
         const email = this.state.email;
 

@@ -69,7 +69,7 @@ const HomePage = () => {
                                   href="/registration"
                                   className="btn-fill style-five"
                                 >
-                                  Register Now
+                                  Guidelines for Paper Submission and Acceptance
                                 </a>
                                 {/* <ul>
                             <li>
@@ -256,68 +256,106 @@ const HomePage = () => {
                           data-widget_type="text-editor.default"
                         >
                           <div className="elementor-widget-container">
+                            {/* About the conference */}
                             <p className="description">
+                              <h5 className="heading-title">
+                                About the Conference :
+                              </h5>
                               International Conference on Management, Technology
                               & Entrepreneurial Challenges in Dynamic Business
-                              Environment- MEC 2024, Department of MBA, and
-                              Department of MCA, Acharya Institute of
+                              Environment- MEC 2024. Department of MBA and
+                              Department of MCA of Acharya Institute of
                               Technology, Bengaluru in association with
                               Universitas Budi Luhur, Indonesia and The State
                               University of Economics and Technology, Ukraine.
                               The event is scheduled to take place on March 20th
-                              and 21th, 2024.
+                              and 21th, 2024 in Hybrid Mode (Both Offline and
+                              Online)
                             </p>
 
+                            {/* Important Dates */}
                             <p className="description">
                               <h5 className="heading-title">
-                                About the Conference Objectives :
+                                Important Dates :
+                              </h5>
+                            </p>
+                            <ul>
+                              <li>Dates: 20th and 21st March 2024</li>
+                              <li>Time: 9.30 AM to 4.00 PM</li>
+                              <li>
+                                Target Audience: Academicians, Research
+                                Scholars, Students, and Corporate Professional
+                              </li>
+                              <li>Venue: AES Seminar Hall</li>
+                            </ul>
+
+                            {/* Patrons */}
+                            <p className="description">
+                              <h5 className="heading-title">Patrons :</h5>
+                            </p>
+                            <ol>
+                              <li>
+                                Shri B M Reddy, President, JMJ Education Society
+                              </li>
+                              <li>
+                                Shri B. Premnath Reddy, Chairman, Acharya
+                                Institutes
+                              </li>
+                              <li>
+                                Smt. Shalini Reddy, Executive Director, Acharya
+                                Institutes
+                              </li>
+                              <li>
+                                Shri Krishna Basani Reddy, Managing Director,
+                                Acharya Institutes
+                              </li>
+                            </ol>
+
+                            {/* Advisory Committe */}
+                            <p className="description">
+                              <h5 className="heading-title">
+                                Advisory Committe :
                               </h5>
                             </p>
                             <ul>
                               <li>
-                                To facilitate the sharing of cutting-edge
-                                knowledge, research findings, and best practices
-                                in the fields of management, technology and
-                                entrepreneurship
+                                Dr. Rajath Hegde M M, Principal, AIT, India
                               </li>
                               <li>
-                                To provide a platform for attendees to network
-                                and build valuable connections with peers,
-                                industry experts, and potential collaborators
+                                Dr. Ratnakirti Roy, Head of the Department, MCA
                               </li>
                               <li>
-                                To explore sustainable management, emerging
-                                technologies and entrepreneurship practices that
-                                can benefit businesses and the environment
+                                Dr. Ririt Roeswidiah, UNIVERSITAS BUDI LUHUR
                               </li>
                               <li>
-                                To discuss and influence policies that impact
-                                the management, technology and entrepreneurship
-                                ecosystem
+                                Dr. Mohammad Syafrullah, M.Kom, M.Sc, Head of
+                                Research Sub/Directorate
+                              </li>
+                              <li>
+                                Dr. Ratnakirti Roy, Head of the Department, MCA
                               </li>
                             </ul>
 
+                            {/* Chief Patron */}
                             <p className="description">
-                              <h5 className="heading-title">
-                                Expected Outcome of the Program :
-                              </h5>
+                              <h5 className="heading-title">Chief Patron :</h5>
                             </p>
                             <ul>
                               <li>
-                                Increased awareness and understanding of the
-                                latest trends, research findings, and best
-                                practices in management, technology and
-                                entrepreneurship
+                                Dr. Rajath Hegde M M, Principal, AIT, India
                               </li>
                               <li>
-                                Enhanced knowledge and skills among
-                                participants, which they can apply in their
-                                professional roles
+                                Dr. Ratnakirti Roy, Head of the Department, MCA
                               </li>
                               <li>
-                                Expanded professional networks for attendees,
-                                leading to potential collaborations,
-                                partnerships, and business opportunities
+                                Dr. Ririt Roeswidiah, UNIVERSITAS BUDI LUHUR
+                              </li>
+                              <li>
+                                Dr. Mohammad Syafrullah, M.Kom, M.Sc, Head of
+                                Research Sub/Directorate
+                              </li>
+                              <li>
+                                Dr. Ratnakirti Roy, Head of the Department, MCA
                               </li>
                             </ul>
                           </div>
@@ -341,6 +379,22 @@ const HomePage = () => {
                         </div>
                       </div>
                     </div>
+                  </div>
+                  {/* TRACK DETAILS */}
+                  <div class="col-md-5 shadow p-5 mb-5  rounded">
+                    <p className="description">
+                      <h2 className="heading-title">Track Details :</h2>
+                    </p>
+                    <ul>
+                      <li>
+                        TRACK 1: GENERAL MANAGEMENT AND HUMAN RESOURCE
+                        MANAGEMENT
+                      </li>
+                      <li>TRACK 2 MARKETING MANAGEMENT</li>
+                      <li>TRACK 3 FINANCIAL MANAGEMENT</li>
+                      <li>TRACK 4 ENTREPRENEURSHIP AND INNOVATIONS</li>
+                      <li>TRACK 5 EMERGING AREAS AND OTHER ALLIED AREAS</li>
+                    </ul>
                   </div>
                 </section>
               </div>
