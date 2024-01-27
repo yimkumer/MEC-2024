@@ -23,7 +23,7 @@ const Header = () => {
                       </a>
                     </div>
                     <div className="header-logo logo-2 logo-dark">
-                      <a href="https://www.acharya.ac.in/">
+                      <a href="/home">
                         <img
                           style={{ width: 200, height: 37 }}
                           src="assets/a.svg"
