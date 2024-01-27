@@ -10,7 +10,7 @@ const Register = () => {
       >
         <h1 class="display-5 text-center">
           {" "}
-          Carefully go through the Information given below :
+          -- Carefully go through the Information given below --
         </h1>
         <div className="elementor-container elementor-column-gap7 -default">
           {/* Form border  */}
