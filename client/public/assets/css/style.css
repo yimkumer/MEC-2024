@@ -1,3 +1,29 @@
+#i{
+  text-align: center;
+}
+#list{
+  display: flex;
+  justify-content: center;
+}
+
+#details #i{
+  text-align: center;
+}
+
+#details #e{
+  text-align: center;
+}
+
+#details .guides{
+  margin-bottom: 45px;
+}
+
+#details{
+    letter-spacing: 1px;
+    text-indent: 4px;
+    
+}
+
 #rules {
   margin-left: 30px;
   letter-spacing: 1px;
@@ -708,7 +734,7 @@ body .is-layout-grid > * {
 }
 
 .breadcrumbs-banner {
-  background-image: url(../banner.jpg);
+  background-image: url(../campus.jpeg);
 }
 
 .breadcrumbs-banner:before {

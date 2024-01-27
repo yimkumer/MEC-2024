@@ -7,7 +7,7 @@ const Banner = () => {
             src="./assets/slogan.png"
             className="img-fluid"
             alt="Acharya slogan"
-            width="25%"
+            width="35%"
           />
           <div className="breadcrumb-area">
             <div className="entry-breadcrumb">
@@ -29,7 +29,7 @@ const Banner = () => {
               <span property="itemListElement" typeof="ListItem">
                 <span
                   property="name"
-                  style={{ fontSize: 30 }}
+                  style={{ fontSize: 30, color: "white" }}
                   className="post post-page current-item"
                 >
                   Visit Us
