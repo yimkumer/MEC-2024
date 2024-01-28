@@ -211,15 +211,15 @@ const Register = () => {
               <h3 className="heading-title">Contact Details :</h3>
               <ul>
                 <li>
-                  Prof. Archana Vijay, Dept. of MCA Coordinator , Coordinator ,
+                  Prof. Archana Vijay, Dept. of MBA Coordinator , Coordinator ,
                   96208 00087
                 </li>
                 <li>
-                  Prof. Suhas Patel, Dept. of MCA Coordinator , Coordinator ,
+                  Prof. Suhas Patel, Dept. of MBA Coordinator , Coordinator ,
                   96326 09776
                 </li>
                 <li>
-                  Prof. Channakeshava H C, Dept. of MCA Coordinator ,
+                  Prof. Channakeshava H C, Dept. of MBA Coordinator ,
                   Coordinator , 90358 40001
                 </li>
                 <li>
