@@ -105,7 +105,10 @@ const Register = () => {
               <p>
                 <em>
                   <strong>
-                    <h6>Note:</h6>
+                    <h6>
+                      {" "}
+                      <strong>Note :</strong>
+                    </h6>
                     <ol>
                       <li>
                         At least one author has to register in the conference
