@@ -1,7 +1,53 @@
-import React from "react";
+import { default as React, useEffect, useState } from "react";
+
 import image from "./back.jpeg";
 
 const HomePage = () => {
+  const [showText1, setShowText1] = useState(false);
+  const [showText2, setShowText2] = useState(false);
+  const [showText3, setShowText3] = useState(false);
+
+  // To Hide the other text snippets when another is selected
+  const handleClick1 = () => {
+    setShowText1(!showText1);
+    setShowText2(false);
+    setShowText3(false);
+  };
+
+  const handleClick2 = () => {
+    setShowText2(!showText2);
+    setShowText1(false);
+    setShowText3(false);
+  };
+
+  const handleClick3 = () => {
+    setShowText3(!showText3);
+    setShowText1(false);
+    setShowText2(false);
+  };
+
+  useEffect(() => {
+    // Adding event listener to hide texts when clicking outside
+    const handleClickOutside = (event) => {
+      if (
+        event.target.closest('img[alt="Click to see text 1"]') !== null ||
+        event.target.closest('img[alt="Click to see text 2"]') !== null ||
+        event.target.closest('img[alt="Click to see text 3"]') !== null
+      )
+        return;
+      setShowText1(false);
+      setShowText2(false);
+      setShowText3(false);
+    };
+
+    document.addEventListener("click", handleClickOutside);
+
+    // Cleanup function to remove event listener when component unmounts
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
   return (
     <>
       <div
@@ -137,20 +183,150 @@ const HomePage = () => {
                           International Collaboration Universities :
                         </div>
                         <div className="image-gallery">
+                          {/* Acharya */}
                           <img
                             src="assets/college.png"
-                            alt="Acharya college logo"
+                            alt="Click to see text 1"
                             id="a"
+                            onClick={handleClick1}
                           />
-                          <img src="assets/budi.png" alt="Budi logo" id="b" />
+
+                          {/* Budi */}
+                          <img
+                            src="assets/budi.png"
+                            alt="Click to see text 2"
+                            id="b"
+                            onClick={handleClick2}
+                          />
+
+                          {/* Ukraine */}
                           <img
                             src="assets/ukraine.png"
-                            alt="Ukraine logo"
+                            alt="Click to see text 3"
                             id="c"
+                            onClick={handleClick3}
                           />
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div
+                    id="info"
+                    class="container-fluid text-center font-weight-light blockquote-footer"
+                  >
+                    Click on any of the Logos for more Info
+                  </div>
+                  {/* Colleges Information Paragraph */}
+                  <div
+                    id="colleges"
+                    class="container-fluid text-center"
+                    className={`container-fluid text-center ${
+                      showText1 ? "" : "hidden"
+                    }`}
+                  >
+                    {showText1 && (
+                      <p>
+                        <em>
+                          " Acharya Institutes is one of the best colleges in
+                          India! Spread across 120 acres of pristine land in
+                          Bengaluru India's 'technology hub' and located only a
+                          few minutes drive from top-notch multinational
+                          companies and Indian corporates, the Acharya campus is
+                          a magnificent sight, to begin with. Being counted
+                          amongst the top colleges in Bangalore, Acharya hosts
+                          its student-centric design and innovative blend of
+                          modern and traditional styles of architecture, the
+                          campus is a perfect setting for the students to let
+                          their ideas fly and get closer to realizing their
+                          dreams. Here the emphasis is on experiential and
+                          collaborative learning and our students learn the ways
+                          of the world directly from each other, with the campus
+                          being home to students from no less than 75 countries
+                          " <br />
+                        </em>
+                        <strong>
+                          <a
+                            href="https://www.acharya.ac.in/"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            - Know More
+                          </a>
+                        </strong>
+                      </p>
+                    )}
+                  </div>
+                  {/* Colleges Information Paragraph */}
+                  <div
+                    id="colleges"
+                    class="container-fluid text-center  "
+                    className={`container-fluid text-center ${
+                      showText2 ? "" : "hidden"
+                    }`}
+                  >
+                    {showText2 && (
+                      <p>
+                        <em>
+                          " Universitas Budi Luhur established with a noble
+                          aspiration to mold intelligent individuals with
+                          virtuous character which produces individuals who are
+                          not only intellectually capable but also possess a
+                          noble character. The entire academic community at
+                          Universitas Budi Luhur deeply understands the
+                          founder's values of 'kebudiluhuran' (noble character):
+                          intelligence and moral integrity are intertwined and
+                          inseparable. Intelligence, without a foundation of
+                          noble character, may be used to deceive and harm
+                          others. Conversely, virtuous character without the
+                          balance of intelligence may make one susceptible to
+                          crime and oppression by others. Located in Jakarta,
+                          the bustling capital of Indonesia, our institution has
+                          academic excellence which holds the unique distinction
+                          of being the first computer science institute in the
+                          country, originally established as the Akademi Ilmu
+                          Komputer Budi Luhur " <br />
+                        </em>
+                        <strong>
+                          <a
+                            href="https://www.budiluhur.ac.id/"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            - Know More
+                          </a>
+                        </strong>
+                      </p>
+                    )}
+                  </div>
+                  {/* Colleges Information Paragraph */}
+                  <div
+                    id="colleges"
+                    class="container-fluid text-center"
+                    className={`container-fluid text-center ${
+                      showText3 ? "" : "hidden"
+                    }`}
+                  >
+                    {showText3 && (
+                      <p>
+                        <em>
+                          " State University of Economics and Technology, also
+                          in the past known as Kryvyi Rih Institute of
+                          Economics, located in Kryvyi Rih, Ukraine was founded
+                          in 1966 as a branch of Donetsk Institute of Soviet
+                          Trade. In 1977, it became a branch of Kyiv National
+                          Economic University " <br />
+                        </em>
+                        <strong>
+                          <a
+                            href="https://www.duet.edu.ua/en"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            - Know More
+                          </a>
+                        </strong>
+                      </p>
+                    )}
                   </div>
 
                   <div className="elementor-container elementor-column-gap-default">

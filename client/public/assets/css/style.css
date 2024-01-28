@@ -1,3 +1,22 @@
+#colleges{
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  transform: translateY(-5px) rotateX(1deg);
+  perspective: 1000px;
+  background: linear-gradient(to bottom, #f8f9fa, #e2e4e6);
+  letter-spacing: 1px;
+  
+}
+
+.hidden {
+  display: none; /* Completely hides the element */
+}
+#info{
+  color: #001e56;
+}
 #i{
   text-align: center;
 }
