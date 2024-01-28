@@ -74,7 +74,8 @@ const ContactUs = () => {
                         <h3 className="title">Email Address</h3>
                         <ul className="address-details">
                           <li>
-                            <a href="mailto:admissions@acharya.ac.in">
+                            <a href="mailto:ait.mba.mec@acharya.ac.in">
+                              ait.mba.mec@acharya.ac.in
                               {/* Domestic - admissions@acharya.ac.in */}
                             </a>
                           </li>

@@ -1,5 +1,7 @@
+import "bootstrap/dist/css/bootstrap.css";
 import { default as React, useEffect, useState } from "react";
-
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Tooltip from "react-bootstrap/Tooltip";
 import image from "./back.jpeg";
 
 const HomePage = () => {
@@ -184,28 +186,57 @@ const HomePage = () => {
                         </div>
                         <div className="image-gallery">
                           {/* Acharya */}
-                          <img
-                            src="assets/college.png"
-                            alt="Click to see text 1"
-                            id="a"
-                            onClick={handleClick1}
-                          />
+                          <OverlayTrigger
+                            overlay={(props) => (
+                              <Tooltip {...props}>
+                                Click the Logo for more Info
+                              </Tooltip>
+                            )}
+                            placement="bottom"
+                          >
+                            <img
+                              src="assets/college.png"
+                              alt="Click to see text 1"
+                              id="a"
+                              onClick={handleClick1}
+                            />
+                          </OverlayTrigger>
 
                           {/* Budi */}
-                          <img
-                            src="assets/budi.png"
-                            alt="Click to see text 2"
-                            id="b"
-                            onClick={handleClick2}
-                          />
+
+                          <OverlayTrigger
+                            overlay={(props) => (
+                              <Tooltip {...props}>
+                                Click the Logo for more Info
+                              </Tooltip>
+                            )}
+                            placement="bottom"
+                          >
+                            <img
+                              src="assets/budi.png"
+                              alt="Click to see text 2"
+                              id="b"
+                              onClick={handleClick2}
+                            />
+                          </OverlayTrigger>
 
                           {/* Ukraine */}
-                          <img
-                            src="assets/ukraine.png"
-                            alt="Click to see text 3"
-                            id="c"
-                            onClick={handleClick3}
-                          />
+
+                          <OverlayTrigger
+                            overlay={(props) => (
+                              <Tooltip {...props}>
+                                Click the Logo for more Info
+                              </Tooltip>
+                            )}
+                            placement="bottom"
+                          >
+                            <img
+                              src="assets/ukraine.png"
+                              alt="Click to see text 3"
+                              id="c"
+                              onClick={handleClick3}
+                            />
+                          </OverlayTrigger>
                         </div>
                       </div>
                     </div>
@@ -498,17 +529,15 @@ const HomePage = () => {
                                 Dr. Rajath Hegde M M, Principal, AIT, India
                               </li>
                               <li>
-                                Dr. Ratnakirti Roy, Head of the Department, MCA
+                                Prof. Marigowda C K, Vice Principal, AIT, India
                               </li>
                               <li>
-                                Dr. Ririt Roeswidiah, UNIVERSITAS BUDI LUHUR
+                                Dr. Zulvia Khalid, MM, UNIVERSITAS BUDI LUHUR,
+                                Indonesia
                               </li>
                               <li>
-                                Dr. Mohammad Syafrullah, M.Kom, M.Sc, Head of
-                                Research Sub/Directorate
-                              </li>
-                              <li>
-                                Dr. Ratnakirti Roy, Head of the Department, MCA
+                                Victoria SOLOVIEVA, Assoc. Prof. PhD, State
+                                University of Economics and Technology, Ukraine
                               </li>
                             </ul>
 

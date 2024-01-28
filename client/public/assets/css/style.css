@@ -111,15 +111,23 @@
   width: 35%;
   height: auto;
 }
+.image-gallery #a:hover {
+  cursor: pointer;
+}
 .image-gallery #b {
   width: 66%;
   height: auto;
+}
+.image-gallery #b:hover {
+  cursor: pointer;
 }
 .image-gallery #c {
   width: 88%;
   height: auto;
 }
-
+.image-gallery #c:hover {
+  cursor: pointer;
+}
 .wp-block-audio figcaption {
   color: #555;
   font-size: 13px;

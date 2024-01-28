@@ -207,9 +207,30 @@ const Register = () => {
               {/* CONTACTS*/}
               <h3 className="heading-title">Contact Details :</h3>
               <ul>
-                <li>Prof. Archana Vijay, Coordinator , 96208 00087</li>
-                <li>Prof. Suhas Patel, Coordinator , 96326 09776</li>
-                <li>Prof. Channakeshava H C, Coordinator , 90358 40001</li>
+                <li>
+                  Prof. Archana Vijay, Dept. of MCA Coordinator , Coordinator ,
+                  96208 00087
+                </li>
+                <li>
+                  Prof. Suhas Patel, Dept. of MCA Coordinator , Coordinator ,
+                  96326 09776
+                </li>
+                <li>
+                  Prof. Channakeshava H C, Dept. of MCA Coordinator ,
+                  Coordinator , 90358 40001
+                </li>
+                <li>
+                  {" "}
+                  Prof. Sumit S Chowdhury, Dept. of MCA Coordinator , 85838
+                  66180
+                </li>
+                <li>
+                  Prof. Pallavi M O, Dept. of MCA Coordinator , 99160 22291
+                </li>
+                <li>
+                  Prof. Sheela Maharajpet, Dept. of MCA Coordinator , 88674
+                  13464
+                </li>
               </ul>
             </di>
           </div>
