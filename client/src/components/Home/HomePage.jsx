@@ -219,7 +219,7 @@ const HomePage = () => {
                   {/* Colleges Information Paragraph */}
                   <div
                     id="colleges"
-                    class="container-fluid text-center"
+                    class="container-fluid "
                     className={`container-fluid text-center ${
                       showText1 ? "" : "hidden"
                     }`}
@@ -557,20 +557,215 @@ const HomePage = () => {
                     </div>
                   </div>
                   {/* TRACK DETAILS */}
-                  <div class="col-md-5 shadow p-5 mb-5  rounded">
+                  <div class="container-fluid  " id="track">
                     <p className="description">
-                      <h2 className="heading-title">Track Details :</h2>
+                      <h2 className="heading-title">
+                        {" "}
+                        <center>Track Details :</center>{" "}
+                      </h2>
                     </p>
+
                     <ul>
                       <li>
-                        TRACK 1: GENERAL MANAGEMENT AND HUMAN RESOURCE
-                        MANAGEMENT
+                        <a href="#scroll-track-1">
+                          TRACK 1: GENERAL MANAGEMENT AND HUMAN RESOURCE
+                          MANAGEMENT
+                        </a>
                       </li>
-                      <li>TRACK 2 MARKETING MANAGEMENT</li>
-                      <li>TRACK 3 FINANCIAL MANAGEMENT</li>
-                      <li>TRACK 4 ENTREPRENEURSHIP AND INNOVATIONS</li>
-                      <li>TRACK 5 EMERGING AREAS AND OTHER ALLIED AREAS</li>
+                      <li>
+                        <a href="#scroll-track-2">
+                          TRACK 2 MARKETING MANAGEMENT
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#scroll-track-3">
+                          TRACK 3 FINANCIAL MANAGEMENT
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#scroll-track-4">
+                          TRACK 4 ENTREPRENEURSHIP AND INNOVATIONS
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#scroll-track-5">
+                          TRACK 5 EMERGING AREAS AND OTHER ALLIED AREAS
+                        </a>
+                      </li>
                     </ul>
+                  </div>
+                  <div
+                    data-bs-spy="scroll"
+                    data-bs-target="#navbar-example2"
+                    data-bs-offset="0"
+                    className="scrollspy-example"
+                    tabindex="0"
+                  >
+                    <div class="container">
+                      <div className="row">
+                        <div className="col-sm">
+                          <div id="scroll-track-1">
+                            <br />
+                            <br /> <br />
+                            <br />
+                          </div>
+
+                          <h4>
+                            TRACKS 1: GENERAL MANAGEMENT AND HUMAN RESOURCE
+                            MANAGEMENT
+                          </h4>
+                          <ul>
+                            <li>Rethinking HR: Home as Office</li>
+                            <li>HR Role in World from Home Culture </li>
+                            <li>Virtual Employee Engagement </li>
+                            <li>Reimaging Onboard post pandemic</li>
+                            <li>WFH - Challenges for Team HR</li>
+                            <li>Diversity and Inclusion</li>
+                            <li>Building Resilience Post Covid</li>
+                            <li>Changing Role of HR Post Pandemic</li>
+                            <li>Strategic Human Resource Management</li>
+                            <li>Impact of Technology on HR</li>
+                            <li>Ethics in Human Resource Management</li>
+                            <li>
+                              Recent HR Practices / HR Innovative Practices
+                            </li>
+                            <li>Practices to build heo1thy workplaces</li>
+                            <li>Talent Acquisition</li>
+                            <li>Technology in HR</li>
+                          </ul>
+                        </div>
+                        <div className="col-sm">
+                          <div id="scroll-track-2">
+                            <br />
+                            <br /> <br />
+                            <br />
+                          </div>
+                          <h4>TRACK 2 MARKETING MANAGEMENT</h4>
+                          <ul>
+                            <li>Digital Marketing</li>
+                            <li>e-Marketing</li>
+                            <li>Brand Management</li>
+                            <li>Consumer Psychology</li>
+                            <li>Nero Marketing</li>
+                            <li>Consumer Behaviour Analysis</li>
+                            <li>Advanced Marketing Communication</li>
+                            <li>Green Marketing</li>
+                            <li>Corporate Soles Dynamics</li>
+                            <li>Innovations in services Marketing</li>
+                            <li>Innovations in Retail Business</li>
+                            <li>Rural Marketing</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div class="col-sm">
+                          <div id="scroll-track-3">
+                            <br />
+                            <br /> <br />
+                            <br />
+                          </div>
+                          <h4>TRACK 3 FINANCIAL MANAGEMENT</h4>
+                          <ul>
+                            <li>Digital Banking</li>
+                            <li>Personal Finance</li>
+                            <li>Behavioural Finance</li>
+                            <li>Portfolio Management</li>
+                            <li>Public Finance</li>
+                            <li>Venture Capital</li>
+                            <li>Micro Finance</li>
+                            <li>Mergers Post Covid</li>
+                            <li>Capital Market</li>
+                            <li>Corporate Governance</li>
+                            <li>Financial Inclusion</li>
+                            <li>Post Pandemic Financial Planning</li>
+                            <li>Risk Management</li>
+                            <li>Embedded Finance</li>
+                            <li>ESG Investing</li>
+                          </ul>
+                        </div>
+                        <div className="col-sm">
+                          <div id="scroll-track-4">
+                            <br />
+                            <br /> <br />
+                            <br />
+                          </div>
+                          <h4>TRACK 4 ENTREPRENEURSHIP AND INNOVATIONS</h4>
+
+                          <ul>
+                            <li>liSmoll and Medium-Sized Enterprises (SME)</li>
+                            <li>
+                              Entrepreneurship, Fin Tech and Investing in future
+                              business
+                            </li>
+                            <li>Microfinance and self-help groups</li>
+                            <li>Role of Al in Entrepreneurship</li>
+                            <li>Disruptive business models</li>
+                            <li>
+                              Internationalization and cross-country trade
+                              management
+                            </li>
+                            <li>
+                              Global market segmentation, targeting and
+                              positioning
+                            </li>
+                            <li>Knowledge management, innovation, and</li>
+                            <li>Customer advocacy</li>
+                            <li>Globalization and business diversity.</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div className="row">
+                        <div id="scroll-track-5">
+                          <br />
+                          <br /> <br />
+                          <br />
+                        </div>
+                        <h4>TRACK 5 EMERGING AREAS AND OTHER ALLIED AREAS</h4>
+
+                        <div className="col-sm">
+                          <ul>
+                            <li>Business Analytics</li>
+                            <li>Human Resource Analytics</li>
+                            <li>Financial Analytics</li>
+                            <li>Operations Analytics</li>
+                            <li>Marketing Analytics</li>
+                            <li>Supply Chain Analytics</li>
+                            <li>Ted Analytics</li>
+                            <li>Image Analytics</li>
+                            <li>Web Analytics</li>
+                            <li>Social Media Analytics</li>
+                            <li>Fraud Analytics</li>
+                            <li>Macro Environment</li>
+                            <li>PEST</li>
+                            <li>Corporate Social Responsibility</li>
+                            <li>Micro Environment</li>
+                          </ul>
+                        </div>
+                        <div className="col-sm">
+                          <ul>
+                            <li>Multi culture Research</li>
+                            <li>Business Ethics and Values</li>
+                            <li>IPR, Patents and Acquisitions</li>
+                            <li>Urban and Regional Planning</li>
+                            <li>Digital Transformation</li>
+                            <li>Covid-19 Disruption</li>
+                            <li>Globalization and Governance Human Values</li>
+                            <li>
+                              Organizational Value Business for Social
+                              Responsibility
+                            </li>
+                            <li>Global Warming and Health Implications</li>
+                            <li>Social Media Sentiment Analysis</li>
+                            <li>Online Fake Review Detection</li>
+                            <li>Generative AI for Business Decision Making</li>
+                            <li>Fake News Detection</li>
+                            <li>Digital Financial Data Security</li>
+                            <li>Digital Healthcare</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </section>
               </div>

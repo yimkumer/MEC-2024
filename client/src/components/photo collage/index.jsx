@@ -27,10 +27,10 @@ const Photos = () => {
               decoding="async"
               width="960"
               height="900"
-              src="assets/class.jpg"
+              src="assets/grad.jpg"
               class="attachment-full size-full"
               alt=""
-              srcset="assets/class.jpg 960w, assets/class.jpg 600w, assets/class.jpg 768w"
+              srcset="assets/grad.jpg 960w, assets/grad.jpg 600w, assets/grad.jpg 768w"
               sizes="(max-width: 960px) 100vw, 960px"
             />{" "}
           </div>
@@ -42,10 +42,10 @@ const Photos = () => {
               decoding="async"
               width="960"
               height="900"
-              src="assets/graduation.jpg"
+              src="assets/class.jpeg"
               class="attachment-full size-full"
               alt=""
-              srcset="assets/graduation.jpg 960w, assets/graduation.jpg 600w, assets/graduation.jpg 768w"
+              srcset="assets/class.jpeg 960w, assets/class.jpeg 600w, assets/class.jpeg 768w"
               sizes="(max-width: 960px) 100vw, 960px"
             />{" "}
           </div>
