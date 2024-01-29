@@ -671,7 +671,7 @@ const HomePage = () => {
                             <li>
                               Recent HR Practices / HR Innovative Practices
                             </li>
-                            <li>Practices to build heo1thy workplaces</li>
+                            <li>Practices to build healthy workplaces</li>
                             <li>Talent Acquisition</li>
                             <li>Technology in HR</li>
                           </ul>
@@ -734,7 +734,7 @@ const HomePage = () => {
                           <h4>TRACK 4 ENTREPRENEURSHIP AND INNOVATIONS</h4>
 
                           <ul>
-                            <li>liSmoll and Medium-Sized Enterprises (SME)</li>
+                            <li>Small and Medium-Sized Enterprises (SME)</li>
                             <li>
                               Entrepreneurship, Fin Tech and Investing in future
                               business
@@ -750,9 +750,8 @@ const HomePage = () => {
                               Global market segmentation, targeting and
                               positioning
                             </li>
-                            <li>Knowledge management, innovation, and</li>
-                            <li>Customer advocacy</li>
-                            <li>Globalization and business diversity.</li>
+                            <li>Knowledge management, innovation, and Customer advocacy</li>
+                            <li>Globalization and business diversity</li>
                           </ul>
                         </div>
                       </div>
