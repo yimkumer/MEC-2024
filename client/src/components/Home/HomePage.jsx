@@ -547,7 +547,7 @@ const HomePage = () => {
                             </p>
                             <ul>
                               <li>
-                                Dr. Rajath Hegde M M, Principal, AIT, India
+                              Dr. Juin Choudhury, Head of the Department, MBA
                               </li>
                               <li>
                                 Dr. Ratnakirti Roy, Head of the Department, MCA
