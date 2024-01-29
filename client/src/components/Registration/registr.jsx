@@ -22,7 +22,7 @@ const Register = () => {
               </h3>
               <p>
                 Abstracts must include a clear indication of the purpose of
-                paper, major results implications, and key references. The
+                paper, major results, implications, and key references. The
                 authors(s) should clearly mention under what track the paper
                 should be included. They should adhere to the following while
                 typing in MS-Word:

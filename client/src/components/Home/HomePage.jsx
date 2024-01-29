@@ -610,28 +610,28 @@ const HomePage = () => {
                     <ul>
                       <li>
                         <a href="#scroll-track-1">
-                          TRACK 1: GENERAL MANAGEMENT AND HUMAN RESOURCE
+                          TRACK 1 : GENERAL MANAGEMENT AND HUMAN RESOURCE
                           MANAGEMENT
                         </a>
                       </li>
                       <li>
                         <a href="#scroll-track-2">
-                          TRACK 2 MARKETING MANAGEMENT
+                          TRACK 2 : MARKETING MANAGEMENT
                         </a>
                       </li>
                       <li>
                         <a href="#scroll-track-3">
-                          TRACK 3 FINANCIAL MANAGEMENT
+                          TRACK 3 : FINANCIAL MANAGEMENT
                         </a>
                       </li>
                       <li>
                         <a href="#scroll-track-4">
-                          TRACK 4 ENTREPRENEURSHIP AND INNOVATIONS
+                          TRACK 4 : ENTREPRENEURSHIP AND INNOVATIONS
                         </a>
                       </li>
                       <li>
                         <a href="#scroll-track-5">
-                          TRACK 5 EMERGING AREAS AND OTHER ALLIED AREAS
+                          TRACK 5 : EMERGING AREAS AND OTHER ALLIED AREAS
                         </a>
                       </li>
                     </ul>
@@ -653,7 +653,7 @@ const HomePage = () => {
                           </div>
 
                           <h4>
-                            TRACKS 1: GENERAL MANAGEMENT AND HUMAN RESOURCE
+                            TRACK 1 : GENERAL MANAGEMENT AND HUMAN RESOURCE
                             MANAGEMENT
                           </h4>
                           <ul>
@@ -682,7 +682,7 @@ const HomePage = () => {
                             <br /> <br />
                             <br />
                           </div>
-                          <h4>TRACK 2 MARKETING MANAGEMENT</h4>
+                          <h4>TRACK 2 : MARKETING MANAGEMENT</h4>
                           <ul>
                             <li>Digital Marketing</li>
                             <li>e-Marketing</li>
@@ -706,7 +706,7 @@ const HomePage = () => {
                             <br /> <br />
                             <br />
                           </div>
-                          <h4>TRACK 3 FINANCIAL MANAGEMENT</h4>
+                          <h4>TRACK 3 : FINANCIAL MANAGEMENT</h4>
                           <ul>
                             <li>Digital Banking</li>
                             <li>Personal Finance</li>
@@ -731,7 +731,7 @@ const HomePage = () => {
                             <br /> <br />
                             <br />
                           </div>
-                          <h4>TRACK 4 ENTREPRENEURSHIP AND INNOVATIONS</h4>
+                          <h4>TRACK 4 : ENTREPRENEURSHIP AND INNOVATIONS</h4>
 
                           <ul>
                             <li>Small and Medium-Sized Enterprises (SME)</li>
@@ -762,7 +762,7 @@ const HomePage = () => {
                           <br /> <br />
                           <br />
                         </div>
-                        <h4>TRACK 5 EMERGING AREAS AND OTHER ALLIED AREAS</h4>
+                        <h4>TRACK 5 : EMERGING AREAS AND OTHER ALLIED AREAS</h4>
 
                         <div className="col-sm">
                           <ul>
