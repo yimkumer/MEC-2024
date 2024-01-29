@@ -563,6 +563,19 @@ const HomePage = () => {
                                 Dr. Ratnakirti Roy, Head of the Department, MCA
                               </li>
                             </ul>
+
+                            {/* Convenors */}
+                            <p className="description">
+                              <h5 className="heading-title">Convenor :</h5>
+                            </p>
+                            <ul>
+                              <li>
+                              Dr. Nijaguna G, Professor and IQAC Head, MBA, AIT
+                              </li>
+                              <li>
+                              Dr. Monica M, Assistant Professor, MBA, AIT
+                              </li>
+                            </ul>
                           </div>
                         </div>
                         <div
