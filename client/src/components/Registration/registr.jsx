@@ -135,7 +135,7 @@ const Register = () => {
               {/* Presentation of Paper*/}
               <h3 className="heading-title">Presentation Of Paper :</h3>
               <p>
-                All the accepted papers will be allowed to presented in the
+                All the accepted papers will be allowed to be presented in the
                 conference. The corporate Professionals/ academicians/ research
                 scholars/ students can present their papers using standard
                 template of Power Point Presentation shared with the presenters
@@ -154,7 +154,7 @@ const Register = () => {
 
             <div class="guides" id="f">
               {/* Registtration Fees*/}
-              <h3 className="heading-title">Registartion Fees:</h3>
+              <h3 className="heading-title">Registartion Fees ( After Acceptance of the Paper ) :</h3>
               <table style={{ borderCollapse: "collapse" }}>
                 <thead>
                   <tr>
@@ -191,7 +191,7 @@ const Register = () => {
                 <em>
                   <strong>
                     Last date for Registration and Payment of registration fee:
-                    15h March 2024
+                    15th March 2024
                   </strong>
                 </em>
               </h6>
@@ -201,7 +201,7 @@ const Register = () => {
               {/* Publication Details*/}
               <h3 className="heading-title"> Publication Details :</h3>
               <p>
-                Selected Papers will be published in UGC Indexed/ google Scholar
+                Selected Papers will be published in UGC Indexed / Google Scholar
                 Indexed
               </p>
             </div>
