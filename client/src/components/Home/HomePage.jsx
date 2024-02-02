@@ -841,7 +841,7 @@ const HomePage = () => {
                           <br /> <br />
                           <br />
                         </div>
-                        <h4>TRACK 5 : EMERGING AREAS AND OTHER ALLIED AREAS</h4>
+                        <h4>TRACK 5 : Emerging Technologies and Other Allied Areas</h4>
 
                         <div className="col-sm">
                           <ul>
