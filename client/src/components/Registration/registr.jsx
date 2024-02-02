@@ -71,7 +71,7 @@ const Register = () => {
                 <li>
                   Submit your abstract to:{" "}
                   <a href="https://cmt3.research.microsoft.com/MEC2024" target="_blank">
-                    Microsoft Generated Link
+                    Microsoft CMT
                   </a>
                 </li>
                 <li>
@@ -231,8 +231,7 @@ const Register = () => {
               {/* Publication Details*/}
               <h3 className="heading-title"> Publication Details :</h3>
               <p>
-                Selected Papers will be published in UGC Indexed / Google Scholar
-                Indexed
+              All Accepted paper will be published in Google Scholar Indexed Volume
               </p>
             </div>
 

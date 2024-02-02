@@ -117,7 +117,7 @@ const HomePage = () => {
                                   href="/registration"
                                   className="btn-fill style-five"
                                 >
-                                  Guidelines for Paper Submission and Acceptance
+                                  Click here for paper submission and Acceptance Details
                                 </a>
                                 {/* <ul>
                             <li>
@@ -710,7 +710,7 @@ const HomePage = () => {
                       </li>
                       <li>
                         <a href="#scroll-track-5">
-                          TRACK 5 : EMERGING AREAS AND OTHER ALLIED AREAS
+                          TRACK 5 : Emerging Technologies and Other Allied Areas
                         </a>
                       </li>
                     </ul>
