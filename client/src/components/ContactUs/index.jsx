@@ -112,15 +112,16 @@ const ContactUs = () => {
                           <img
                             decoding="async"
                             src="https://radiustheme.com/demo/wordpress/themes/evacon/wp-content/uploads/2022/02/phone.svg"
+                            
                             alt="SVG Icon"
                           />
                         </span>
                       </div>
                       <div className="content-box">
-                        <h3 className="title">Contact No</h3>
+                        <h3 className="title">Contact Us</h3>
                         <ul className="address-details">
                           <li>
-                            {/* <a href="tel:+91 740-664-4449">+91 740-664-4449</a> */}
+                            <a href="https://chat.whatsapp.com/J2Njcwa4e586kITK3sa9be">Click to join us WhatsApp</a>
                           </li>
                           <li>
                             {/* <a href="tel:+91 973-177-9233">+91 973-177-9233</a> */}

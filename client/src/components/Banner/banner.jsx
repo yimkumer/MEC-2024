@@ -11,7 +11,7 @@ const Banner = () => {
           />
           <div className="breadcrumb-area">
             <div className="entry-breadcrumb">
-              {/* Breadcrumb NavXT 7.2.0 */}
+              
               <span property="itemListElement" typeof="ListItem">
                 <a
                   property="item"

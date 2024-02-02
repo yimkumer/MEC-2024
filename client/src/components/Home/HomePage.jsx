@@ -243,17 +243,16 @@ const HomePage = () => {
                   </div>
                   <div
                     id="info"
-                    class="container-fluid text-center font-weight-light blockquote-footer"
+                    className="container-fluid text-center font-weight-light blockquote-footer"
                   >
                     Click on any of the Logos for more Info
                   </div>
                   {/* Colleges Information Paragraph */}
                   <div
                     id="colleges"
-                    class="container-fluid "
-                    className={`container-fluid text-center ${
-                      showText1 ? "" : "hidden"
-                    }`}
+                    
+                    className={`container-fluid text-center ${showText1 ? "" : "hidden"
+                      }`}
                   >
                     {showText1 && (
                       <p>
@@ -290,10 +289,9 @@ const HomePage = () => {
                   {/* Colleges Information Paragraph */}
                   <div
                     id="colleges"
-                    class="container-fluid text-center  "
-                    className={`container-fluid text-center ${
-                      showText2 ? "" : "hidden"
-                    }`}
+                    
+                    className={`container-fluid text-center ${showText2 ? "" : "hidden"
+                      }`}
                   >
                     {showText2 && (
                       <p>
@@ -333,9 +331,8 @@ const HomePage = () => {
                   <div
                     id="colleges"
                     class="container-fluid text-center"
-                    className={`container-fluid text-center ${
-                      showText3 ? "" : "hidden"
-                    }`}
+                    className={`container-fluid text-center ${showText3 ? "" : "hidden"
+                      }`}
                   >
                     {showText3 && (
                       <p>
@@ -472,7 +469,7 @@ const HomePage = () => {
                               & Entrepreneurial Challenges in Dynamic Business
                               Environment- MEC 2024. Department of MBA and
                               Department of MCA of Acharya Institute of
-                              Technology, Bengaluru in association with
+                              Technology (AIT), Bengaluru, India in association with
                               Universitas Budi Luhur, Indonesia and The State
                               University of Economics and Technology, Ukraine.
                               The event is scheduled to take place on March 20th
@@ -502,19 +499,19 @@ const HomePage = () => {
                             </p>
                             <ol>
                               <li>
-                                Shri B M Reddy, President, JMJ Education Society
+                                Shri B M Reddy, President, JMJ Education Society, Bangalore.
                               </li>
                               <li>
-                                Shri B. Premnath Reddy, Chairman, Acharya
-                                Institutes
+                                Shri B Premnath Reddy, Chairman, Acharya Institutes, Bangalore
                               </li>
                               <li>
-                                Smt. Shalini Reddy, Executive Director, Acharya
-                                Institutes
+                                Smt. Shalini Reddy, Executive Director, Acharya Institutes, Bangalore
                               </li>
                               <li>
-                                Shri Krishna Basani Reddy, Managing Director,
-                                Acharya Institutes
+                                Mr. Krishna Basani Reddy, Managing Director, Acharya Institutes, Bangalore
+                              </li>
+                              <li>
+                                Shri C B M Bhooshan ES to Chairman, Acharya Institutes, Bangalore
                               </li>
                             </ol>
 
@@ -526,56 +523,138 @@ const HomePage = () => {
                             </p>
                             <ul>
                               <li>
-                                Dr. Rajath Hegde M M, Principal, AIT, India
+                                <h6>International Advisory Committee:</h6>
+                                <ol>
+                                  <li>
+                                    Dr. Zulvia Khalid, MM, UNIVERSITAS BUDI LUHUR, Indonesia
+                                  </li>
+                                  <li>
+                                  Victoria SOLOVIEVA, PhD, Assoc. Prof.  State University of Economics and Technology, Ukraine
+                                  </li>
+
+                                </ol>
                               </li>
                               <li>
-                                Prof. Marigowda C K, Vice Principal, AIT, India
+                                <h6>National Advisory Committee:</h6>
+                                <ol>
+                                  <li>
+                                    Dr. Rajath Hegde M M, Principal, AIT, India
+                                  </li>
+                                  <li>
+                                    Prof. Marigowda C K, Vice Principal, AIT, India
+                                  </li>
+                                  <li>
+                                    Dr. Prasenjit Dey, Dept of Computer Science and Engineering,  National Institute of Technology,Rourkela
+                                  </li>
+
+                                </ol>
                               </li>
                               <li>
-                                Dr. Zulvia Khalid, MM, UNIVERSITAS BUDI LUHUR,
-                                Indonesia
-                              </li>
-                              <li>
-                                Victoria SOLOVIEVA, Assoc. Prof. PhD, State
-                                University of Economics and Technology, Ukraine
+                                <h6>Steering Committee:</h6>
+                                <ol>
+                                  <li>
+                                    Dr. Rajashekhar Patil, Head, Quality assurance, Acharya Institutes, Bangalore.
+                                  </li>
+                                  <li>
+                                    Dr. Rajeswari, Dean of Academics, AIT, India.
+                                  </li>
+                                  <li>
+                                    Dr. Justin Jeya Amutha K, Assistant Director of Research, Acharya Institutes,India.
+                                  </li>
+                                  <li>
+                                    Prof. Devasis Pradhan, Dean, R & D, AIT, Bangalore.
+                                  </li>
+
+                                </ol>
                               </li>
                             </ul>
 
-                            {/* Chief Patron */}
                             <p className="description">
-                              <h5 className="heading-title">Chief Patron :</h5>
+                              <h5 className="heading-title">Program chair:</h5>
                             </p>
-                            <ul>
+                            <ol>
                               <li>
-                              Dr. Juin Choudhury, Head of the Department, MBA
+                                Dr. Rajath Hegde M. M, Principal, AIT, India.
                               </li>
-                              <li>
-                                Dr. Ratnakirti Roy, Head of the Department, MCA
-                              </li>
-                              <li>
-                                Dr. Ririt Roeswidiah, UNIVERSITAS BUDI LUHUR
-                              </li>
-                              <li>
-                                Dr. Mohammad Syafrullah, M.Kom, M.Sc, Head of
-                                Research Sub/Directorate
-                              </li>
-                              <li>
-                                Dr. Ratnakirti Roy, Head of the Department, MCA
-                              </li>
-                            </ul>
 
-                            {/* Convenors */}
+                            </ol>
                             <p className="description">
-                              <h5 className="heading-title">Convenor :</h5>
+                              <h5 className="heading-title">Program Co-chair:</h5>
                             </p>
-                            <ul>
+                            <ol>
                               <li>
-                              Dr. Nijaguna G, Professor and IQAC Head, MBA, AIT
+                                Prof. C.K. Marigowda, Vice- Principal, AIT, India.
+                              </li>
+
+                            </ol>
+
+                            <p className="description">
+                              <h5 className="heading-title">
+                                Convenors:
+                              </h5>
+                            </p>
+                            <ol className="mb-2">
+                              <li>Dr. Juin Choudhury, Head, MBA, AIT, India</li>
+                              <li>Dr. Ratnakirti Roy, Head, MCA, AIT, India</li>
+                              <li>Dr. Ririt Roeswidiah, UNIVERSITAS BUDI LUHUR, Indonesia.</li>
+                              <li>Dr. Mohammad Syafrullah, M.Kom, M.Sc, Head of Research  </li>
+                            </ol>
+
+                            <p className="description">
+                              <h5 className="heading-title">
+                                Co-convenors :
+                              </h5>
+                            </p>
+                            <ol className="mb-2">
+                              <li>
+                                Dr. Nijaguna G, Professor and IQAC Head, MBA, AIT, India
                               </li>
                               <li>
-                              Dr. Monica M, Assistant Professor, MBA, AIT
+                                Dr. Monica M, Assistant Professor, MBA, AIT, India
                               </li>
-                            </ul>
+                              <li>Prof. Sumit Singha Chowdhury, Assistant Professor, MCA, AIT, India</li>
+                              <li>Prof. Pallavi M O, Assistant Professor, MCA, AIT, India</li>
+                              <li>Prof. Sheela Maharajpet, Assistant Professor, MCA, AIT, India</li>
+                            </ol>
+
+                            <p className="description">
+                              <h5 className="heading-title">
+                                Committee members:
+                              </h5>
+                            </p>
+                            <ol className="mb-2">
+                              <li>Dr. Renuka Devi, Associate Professor, MBA, AIT, India </li>
+                              <li>Dr. Ramesh C Raina, Associate Professor, MBA, AIT, India</li>
+                              <li>Dr. Pranav U, Associate Professor, MBA, AIT, India</li>
+                              <li>Dr. Mahak Balani, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Archana Vijay, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Suhas Patel, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Bhavya VM, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Channakeshava HC, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Anitabai, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Nethravathi N, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Harshita Kaushik, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Kirthika, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Dhanalakshmi C, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. S Harshini, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Nikhita K, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Yogesh Dixit, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Rohith, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Anju A Nair, Assistant Professor, MBA, AIT, India</li>
+                              <li>Prof. Sheela Maharajpet, Assistant Professor, MCA, AIT, India</li>
+                              <li>Prof. Hanamant Jakaraddi, Assistant Professor, MCA, AIT, India</li>
+                              <li>Prof. Anila Raveendran Nambiar, MCA, AIT, India</li>
+                              <li>Prof. Mudasir Rashid, MCA, AIT, India</li>
+                              <li>Prof. Rajendra Mahesh Jotawar, MCA, AIT, India</li>
+                            </ol>
+
+
+
+
+
+
+
+
                           </div>
                         </div>
                         <div
@@ -599,7 +678,7 @@ const HomePage = () => {
                     </div>
                   </div>
                   {/* TRACK DETAILS */}
-                  <div class="container-fluid  " id="track">
+                  <div className="container-fluid  " id="track">
                     <p className="description">
                       <h2 className="heading-title">
                         {" "}
@@ -643,7 +722,7 @@ const HomePage = () => {
                     className="scrollspy-example"
                     tabindex="0"
                   >
-                    <div class="container">
+                    <div className="container">
                       <div className="row">
                         <div className="col-sm">
                           <div id="scroll-track-1">
@@ -700,7 +779,7 @@ const HomePage = () => {
                         </div>
                       </div>
                       <div className="row">
-                        <div class="col-sm">
+                        <div className="col-sm">
                           <div id="scroll-track-3">
                             <br />
                             <br /> <br />

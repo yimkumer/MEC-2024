@@ -4,18 +4,42 @@ import Map from "../Map";
 const Register = () => {
   return (
     <div className="elementor elementor-1061">
+      
+      <section
+        className="elementor-section "
+        data-element_type="section"
+      >
+        <div className="a mt-2 shadow p-4 rounded">
+          <div className="">
+          <img src="assets/a.svg" style={{ width: 200, height: 37 }} />
+          </div>
+          
+        </div>
+        
+      </section>
+
       <section
         className="elementor-section elementor-top-section elementor-element elementor-element-9881757 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-element_type="section"
       >
-        <h1 class="display-5 text-center">
-          {" "}
-          -- Carefully go through the Information given below --
-        </h1>
+
+
         <div className="elementor-container elementor-column-gap7 -default">
           {/* Form border  */}
-          <div id="details" class="col-md-12 shadow p-5 mb-4 rounded">
-            <div class="guides" id="a">
+          
+          <div id="details" className="col-md-12 shadow p-5 mb-4 rounded">
+          <div className="guides" id="e">
+              {/* BEST PAPER AWARD*/}
+              <h3 className="heading-title">
+                <mark>
+                Carefully go through the information given below
+                </mark>
+              </h3>
+            </div>
+          {/* <div className="text-center p-5"><h2 >--Carefully go through the information given below--</h2>
+          </div> */}
+          
+            <div className="guides" id="a">
               {/* General Guidelins*/}
               <h3 className="heading-title">
                 Abstract And Paper Submission-General Guidelines :
@@ -36,7 +60,7 @@ const Register = () => {
               </ul>
             </div>
 
-            <div class="guides" id="b">
+            <div className="guides" id="b">
               {/* SUBMISSION DATES*/}
               <h3 className="heading-title">Submission Dates :</h3>
               <ul>
@@ -46,14 +70,20 @@ const Register = () => {
                 <li>Full Paper Acceptance: March 15, 2024</li>
                 <li>
                   Submit your abstract to:{" "}
-                  <a href="#" onclick="return false;">
+                  <a href="https://cmt3.research.microsoft.com/MEC2024" target="_blank">
                     Microsoft Generated Link
+                  </a>
+                </li>
+                <li>
+                Paper submition guidelines link :{" "}
+                  <a href="assets/MEC PAPER SUBMISSION STEPS.pdf" target="_blank">
+                  Click here
                   </a>
                 </li>
               </ul>
             </div>
 
-            <div class="guides" id="c">
+            <div className="guides" id="c">
               {/* Paper submission*/}
               <h3 className="heading-title">Paper Submission Guidelines :</h3>
               <p>
@@ -131,7 +161,7 @@ const Register = () => {
               </p>
             </div>
 
-            <div class="guides" id="d">
+            <div className="guides" id="d">
               {/* Presentation of Paper*/}
               <h3 className="heading-title">Presentation Of Paper :</h3>
               <p>
@@ -142,7 +172,7 @@ const Register = () => {
               </p>
             </div>
 
-            <div class="guides" id="e">
+            <div className="guides" id="e">
               {/* BEST PAPER AWARD*/}
               <h4 className="heading-title">
                 <mark>
@@ -152,7 +182,7 @@ const Register = () => {
               </h4>
             </div>
 
-            <div class="guides" id="f">
+            <div className="guides" id="f">
               {/* Registtration Fees*/}
               <h3 className="heading-title">Registartion Fees ( After Acceptance of the Paper ) :</h3>
               <table style={{ borderCollapse: "collapse" }}>
@@ -187,7 +217,7 @@ const Register = () => {
                   </tr>
                 </tbody>
               </table>
-              <h6 class="text-center">
+              <h6 className="text-center">
                 <em>
                   <strong>
                     Last date for Registration and Payment of registration fee:
@@ -197,7 +227,7 @@ const Register = () => {
               </h6>
             </div>
 
-            <div class="guides" id="g">
+            <div className="guides" id="g">
               {/* Publication Details*/}
               <h3 className="heading-title"> Publication Details :</h3>
               <p>
@@ -206,7 +236,7 @@ const Register = () => {
               </p>
             </div>
 
-            <di class="guides" id="h">
+            <di className="guides" id="h">
               {/* CONTACTS*/}
               <h3 className="heading-title">Contact Details :</h3>
               <ul>

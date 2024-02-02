@@ -2,6 +2,15 @@
   list-style-type: none;
 }
 
+.top-section-reg{
+  /* background-color: rgba(53, 3, 203, 0.122); */
+  background-color: #6ec1e462;
+  
+}
+.alert-container{
+  
+}
+
 #track{
   padding: 20px;
  width: fit-content;
