@@ -1,3 +1,147 @@
+#tab{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#f1{
+  margin-bottom: 20px;
+}
+ul li{
+  margin-bottom: 15px; 
+
+}
+ol li {
+  margin-bottom: 15px; 
+}
+
+#lists{
+  margin-top: 40px;
+  letter-spacing: 1px;
+  
+}
+.container-fluid {
+  padding: 0; 
+}
+
+.lists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 20px; 
+}
+
+.list-item {
+  padding: 10px; 
+  border: 1px solid #ddd;
+}
+
+.right-aligned-underline {
+  text-align: right; 
+  border-bottom: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 768px) {
+  .lists-grid {
+    grid-template-columns: 1fr; 
+  }
+}
+
+.right-aligned-underline {
+  text-align: right; 
+  position: relative; 
+}
+
+.right-aligned-underline:after {
+  content: ""; 
+  position: absolute; 
+  left: 0; 
+  bottom: -5px; 
+  width: 100%;
+}
+
+
+#box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#photo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  max-height:100%;
+}
+
+#description {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+h4{
+
+  padding-bottom: value;
+  border-bottom-style: solid;
+  border-bottom-color: #EC9220;
+}
+
+#container3{
+padding-bottom: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  position:center;
+  border: 2px solid blue;
+  box-shadow: 2px 2px 12px rgba(104, 212, 54, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+tr {
+  letter-spacing: 1px;
+  transition: all .2s ease-in;
+  cursor: pointer;
+  text-align: center;
+}
+th{
+  text-align: center;
+  border-style : hidden!important;
+  size: 180%;
+  background-color: #EC9220;
+  color: white;
+}
+tr:hover {
+  font-size: large;
+  color: #ffffff;
+  background-color: #EC9220;
+  transform: scale(1.02);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+#counter{
+  font-size: 100%;
+  padding-left: 20px;
+}
+
+.countdown-wrap-layout {
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.countdown-wrap-layout {
+  display: inline-block;
+  height: fit-content;
+}
+
+#confernce{
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:250%;
+  letter-spacing: 05px; 
+font-weight: 20;}
+
 #track ul{
   list-style-type: none;
 }
@@ -5,9 +149,6 @@
 .top-section-reg{
   /* background-color: rgba(53, 3, 203, 0.122); */
   background-color: #6ec1e462;
-  
-}
-.alert-container{
   
 }
 
@@ -38,6 +179,12 @@
 
 .hidden {
   display: none; /* Completely hides the element */
+}
+#info2{
+  color: #001e56;
+  font-size: 120%;
+  margin-bottom: 10px;
+  margin-top: 60px;
 }
 #info{
   color: #001e56;

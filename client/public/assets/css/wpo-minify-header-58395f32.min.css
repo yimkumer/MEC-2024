@@ -42838,10 +42838,10 @@ form.woocommerce-EditAccountForm button.woocommerce-Button {
     align-items: center;
     justify-content: space-around;
     margin-left: auto;
-    max-width: 1300px;
+    max-width: 1000px;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media (max-width:1024px) {

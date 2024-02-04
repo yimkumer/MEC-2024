@@ -14,8 +14,9 @@ const Header = () => {
                     <div className="header-logo logo-1 logo-light">
                       <a href="/home">
                         <img
-                          style={{ height: "200%", width: "500%" }}
-                          src="assets/wa.png"
+                          style={{  width: 100, height: 100 }}
+                          class="img-fluid"
+                          src="assets/head1.png"
                           className="attachment-full size-full"
                           alt=""
                           decoding="async"
@@ -25,8 +26,9 @@ const Header = () => {
                     <div className="header-logo logo-2 logo-dark">
                       <a href="/home">
                         <img
-                          style={{ width: 200, height: 37 }}
-                          src="assets/a.svg"
+                          style={{ width: 70, height: 70 }}
+                          class="img-fluid"
+                          src="assets/head2.png"
                           className="attachment-full size-full"
                           alt=""
                           decoding="async"
