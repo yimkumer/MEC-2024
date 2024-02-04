@@ -119,7 +119,7 @@ const Register = () => {
               href="https://cmt3.research.microsoft.com/MEC2024"
               target="_blank"
             >
-              https://cmt3.research.microsoft.com/MEC2024
+              Click here to submit your paper
             </a>
           </div>
 
@@ -222,7 +222,7 @@ const Register = () => {
 
           <div id="tab" class="list-item">
             {/* Publication Details*/}
-            <h3 className="heading-title"> Publication Details :</h3>
+            <h4> Publication Details :</h4>
             <p>
               Selected Papers will be published in the Book series with ISBN
               published in BP International, UK, London
@@ -256,7 +256,7 @@ const Register = () => {
               href="https://acharyainstitutes.in/index.php?r=acerp-api/acerp-events&id=319"
               target="_blank"
             >
-              https://acharyainstitutes.in/index.php?r=acerp-api/acerp-events&id=319
+              Click to open payment gateway
             </a>
           </div>
         </div>
