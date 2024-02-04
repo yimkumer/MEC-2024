@@ -826,7 +826,7 @@ const HomePage = () => {
                         <tr>
                           <td>Programme committee</td>
                           <td>
-                            <ol>
+                            <ol style={{ textAlign: "left" }}>
                               <li>
                                 Dr. Renuka Devi, Associate Professor, MBA, AIT
                               </li>
@@ -851,7 +851,7 @@ const HomePage = () => {
                         <tr>
                           <td>Organizing Committee</td>
                           <td>
-                            <ol>
+                            <ol style={{ textAlign: "left" }}>
                               <li>
                                 Dr. Ramesh C Raina, Associate Professor, MBA
                               </li>
@@ -877,7 +877,7 @@ const HomePage = () => {
                         <tr>
                           <td>Scientific committee</td>
                           <td>
-                            <ol>
+                            <ol style={{ textAlign: "left" }}>
                               <li>Prof. Pranav U, Associate Professor</li>
                               <li>
                                 Prof. Suhas Patel, Assistant Professor G-II
