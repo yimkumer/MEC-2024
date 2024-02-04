@@ -902,6 +902,21 @@ const HomePage = () => {
                     <h4>Resource Persons Details :</h4>
                   </div>
 
+                  {/* Call for papers */}
+                  <div id="tab" class="list-item">
+                    <h4>Call for Papers :</h4>
+                    <p id="paper" class="font-italic">
+                      Acharya Institute of Technology, invites you to associate
+                      with us for the upcoming Conference -2024, a 2 Days
+                      International Conference to be held on 20th and 21st March
+                      2024. International Conference on Management, Technology &
+                      Entrepreneurial Challenges in Dynamic Business
+                      Environment- MTEC 2024 team with pleasure invites you to
+                      contribute with an original research paper, to this blind
+                      and peer-reviewed conference
+                    </p>
+                  </div>
+
                   {/* TRACK DETAILS */}
                   <div className="container-fluid  " id="track">
                     <p className="description">
