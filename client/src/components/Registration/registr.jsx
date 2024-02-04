@@ -4,267 +4,260 @@ import Map from "../Map";
 const Register = () => {
   return (
     <div className="elementor elementor-1061">
-      
-      <section
-        className="elementor-section "
-        data-element_type="section"
-      >
+      <section className="elementor-section " data-element_type="section">
         <div className="a mt-2 shadow p-4 rounded">
           <div className="">
-          <img src="assets/a.svg" style={{ width: 200, height: 37 }} />
+            <img src="assets/a.svg" style={{ width: 200, height: 37 }} />
           </div>
-          
         </div>
-        
       </section>
 
       <section
         className="elementor-section elementor-top-section elementor-element elementor-element-9881757 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-element_type="section"
       >
+        {/* Form border  */}
 
-
-        <div className="elementor-container elementor-column-gap7 -default">
-          {/* Form border  */}
-          
-          <div id="details" className="col-md-12 shadow p-5 mb-4 rounded">
+        <div id="details" className="col-md-12 shadow p-5 mb-4 rounded">
           <div className="guides" id="e">
-              {/* BEST PAPER AWARD*/}
-              <h3 className="heading-title">
-                <mark>
-                Carefully go through the information given below
-                </mark>
-              </h3>
-            </div>
-          {/* <div className="text-center p-5"><h2 >--Carefully go through the information given below--</h2>
-          </div> */}
-          
-            <div className="guides" id="a">
-              {/* General Guidelins*/}
-              <h3 className="heading-title">
-                Abstract And Paper Submission-General Guidelines :
-              </h3>
-              <p>
-                Abstracts must include a clear indication of the purpose of
-                paper, major results, implications, and key references. The
-                authors(s) should clearly mention under what track the paper
-                should be included. They should adhere to the following while
-                typing in MS-Word:
-              </p>
-              <ul>
-                <li>Length: 150-200 words excluding title/cover page</li>
-                <li>Keywords: 3-5 Words</li>
-                <li>Font: Times New Roman Font</li>
-                <li>Size: 12 points</li>
-                <li> Line Spacing: 1.5</li>
-              </ul>
-            </div>
+            <h3 className="heading-title">
+              <mark>Carefully go through the information given below</mark>
+            </h3>
+          </div>
+          <div id="tab" class="list-item">
+            <h4>Submission Guidelines :</h4>
+            <p>
+              The papers should be in the following formats: Publisher format
+              (BPI)
+            </p>
+          </div>
+          <div id="tab" class="list-item">
+            <h4>Plagiarism Policy :</h4>
+            <p>
+              Article should be checked through Turnitin with less than 10-15 %
+              of similarity Index
+            </p>
+          </div>
+          <div id="tab" class="list-item">
+            <h4>Review Process & Acceptance Notification :</h4>
+            <p>Review Process -</p>
+            <ul style={{ textAlign: "left" }}>
+              <li>
+                Step 1: Corresponding author will receive an acknowledgment
+                email containing Paper-Id within one week of paper submission
+              </li>
+              <li>
+                Step 2: To ensure the quality of the manuscript, the Supporting
+                Team will check for the following: Plagiarism (as per Policy)
+                Quality and Novelty Scope of the Manuscript with the theme of
+                the Conference
+              </li>
+              <li>
+                Step 3: The manuscript satisfying the above said points, will be
+                sent for review, and the manuscript not satisfying the
+                above-said points will be notified as either “Revise and
+                Resubmit “or “Rejected”
+              </li>
+              <li>
+                Step 4: Three reviewers will be assigned to each manuscript and
+                will undergo a double-blind review process
+              </li>
+              <li>
+                Step 5: Based on the review comments, the organizing committee
+                will send the decision to the authors Accept/Accept with
+                Revision/ Reject
+              </li>
+              <li>
+                Step 6: If out of three reviewers, the manuscript is accepted by
+                two reviewers, the manuscript will be sent to the Conference
+                chair for further process
+              </li>
+              <li>
+                Step 7: After the final confirmation for acceptance of the
+                manuscript from MTEC Editorial Board, author(s) will be notified
+                through acceptance mail
+              </li>
+            </ul>
+            <p>Acceptance Notification :</p>
+            <ul style={{ textAlign: "left" }}>
+              <li>
+                After Acceptance Notification you cannot withdraw your paper
+                from MTEC-2024
+              </li>
+              <li>
+                Paying Registration Fee: Calculate the registration fee
+                according to your type of authorship ( Academician includes
+                Professor and Faculty, Student include: Research Scholars, PG,
+                and UG Student ) and make payment using Online Payment available
+                at home page of the website
+              </li>
+            </ul>
+            <p>
+              Do not forget to send scanned copy of the online payment receipt
+              on email :
+            </p>
+            <ul style={{ textAlign: "left" }}>
+              <li>
+                Mailing the following items in .zip / .rar format to the
+                Camera-ready Article files, both in prescribed MS Word and PDF
+                format
+              </li>
+              <li>Copy of filled in Registration Form</li>
+              <li>Scanned copy of filled in Copyright Form</li>
+              <li>Proof of studentship</li>
+              <li>Copy of registration fee receipt of Online Payment.</li>
+              <li>
+                The mail must bear the subject line as: “ Registration of
+                article MTEC-2024 "
+              </li>
+            </ul>
+          </div>
 
-            <div className="guides" id="b">
-              {/* SUBMISSION DATES*/}
-              <h3 className="heading-title">Submission Dates :</h3>
-              <ul>
-                <li>Abstract Submission: Feb 16, 2024</li>
-                <li>Abstract Acceptance: Feb 20, 2024</li>
-                <li>Full Paper Submission: March 9, 2024</li>
-                <li>Full Paper Acceptance: March 15, 2024</li>
-                <li>
-                  Submit your abstract to:{" "}
-                  <a href="https://cmt3.research.microsoft.com/MEC2024" target="_blank">
-                    Microsoft CMT
-                  </a>
-                </li>
-                <li>
-                Paper submition guidelines link :{" "}
-                  <a href="assets/MEC PAPER SUBMISSION STEPS.pdf" target="_blank">
-                  Click here
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div id="tab" class="list-item">
+            <h4>Submission Link :</h4>
+            <a
+              href="https://cmt3.research.microsoft.com/MEC2024"
+              target="_blank"
+            >
+              https://cmt3.research.microsoft.com/MEC2024
+            </a>
+          </div>
 
-            <div className="guides" id="c">
-              {/* Paper submission*/}
-              <h3 className="heading-title">Paper Submission Guidelines :</h3>
-              <p>
-                The Paper presenters should adhere to the following guidelines
-                while submitting paper for publication -
-              </p>
-              <ul>
-                <li>
-                  Manuscript should be of 2500-4500 words approximately,
-                  Including tables, graphs & charts
-                </li>
-                <li>
-                  All text should be in double space with 1-inch margins on all
-                  the sides on A4 size paper using Font Times New Roman size 12
-                </li>
-                <li>
-                  The first page of the manuscript should have the title of the
-                  paper, name of the Authors, organizational/Institute
-                  affiliation, complete mailing address, phone number and E-mail
-                  address. Please do not indicate author name, affiliation, or
-                  any other such information in the manuscript elsewhere
-                </li>
-                <li>
-                  Second page of manuscript should have the abstract of 150 to
-                  200 words with 3-5 keywords, manuscript should have maximum of
-                  8 to 10 pages
-                </li>
-                <li>
-                  All tables, charts, and graphs should be prepared on separate
-                  sheets, after the references section, and numbered
-                  continuously in Arabic numerical as referred to in the text.
-                  The sources wherever necessary, should be mentioned at the
-                  bottom
-                </li>
-                <li>
-                  References should be arranged in alphabetical order using the
-                  APA Referencing Style
-                </li>
-                <li>
-                  Once the full paper is accepted, Author(s) will be requested
-                  to submit the copyright transfer form
-                </li>
-                <li>
-                  Any paper which does not follow the guidelines may not be
-                  considered for publication in the google scholar indexed/UGC
-                  indexed
-                </li>
-              </ul>
-              <p>
-                <em>
-                  <strong>
-                    <h6>
-                      {" "}
-                      <strong>Note :</strong>
-                    </h6>
-                    <ol>
-                      <li>
-                        At least one author has to register in the conference
-                        for the paper to be included in the conference
-                        proceeding
-                      </li>
-                      <li>
-                        Only registered authors will be allowed to present
-                        papers and will be given the conference certificates
-                      </li>
-                      <li>
-                        No Participants will be allowed to make more than two
-                        presentations during the conference. This is done to
-                        ensure diversity and inclusivity of more active
-                        participants in the conference
-                      </li>
-                    </ol>
-                  </strong>
-                </em>
-              </p>
-            </div>
+          <div id="tab" class="list-item">
+            <h4>Important Dates :</h4>
+            <table style={{ borderCollapse: "collapse" }}>
+              <tbody>
+                <tr>
+                  <td style={{ padding: "10px" }}>
+                    Submission Deadline abstract, poster and oral presentation
+                  </td>
+                  <td style={{ padding: "10px" }}>Feb 16, 2024</td>
+                </tr>
+                <tr>
+                  <td style={{ padding: "10px" }}>
+                    Acceptance Notification and Registration Starts
+                  </td>
+                  <td style={{ padding: "10px" }}>Feb 20, 2024</td>
+                </tr>
+                <tr>
+                  <td style={{ padding: "10px" }}>
+                    Final Call for Camera Ready Paper
+                  </td>
+                  <td style={{ padding: "10px" }}>March 9, 2024</td>
+                </tr>
+                <tr>
+                  <td style={{ padding: "10px" }}>Last date of Registration</td>
+                  <td style={{ padding: "10px" }}>March 15, 2024</td>
+                </tr>
+                <tr>
+                  <td style={{ padding: "10px" }}>Date of Conference</td>
+                  <td style={{ padding: "10px" }}>March 22 & 23, 2024</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
-            <div className="guides" id="d">
-              {/* Presentation of Paper*/}
-              <h3 className="heading-title">Presentation Of Paper :</h3>
-              <p>
-                All the accepted papers will be allowed to be presented in the
-                conference. The corporate Professionals/ academicians/ research
-                scholars/ students can present their papers using standard
-                template of Power Point Presentation shared with the presenters
-              </p>
-            </div>
+          <div id="tab" class="list-item">
+            {/* BEST PAPER AWARD*/}
+            <h3 style={{ textAlign: "center" }}>
+              <mark>
+                Win Rs.5000 cash prize for the best business-related article and
+                Rs.5000 for outstanding technical content
+              </mark>
+            </h3>
+            <p style={{ textAlign: "center", paddingTop: "10px" }}>
+              <strong>
+                Once the full paper is accepted, Author(s) will be requested to
+                submit the copyright transfer form <br /> Any paper which does
+                not follow the guidelines may not be considered for publication
+                in the BP International, UK, London
+              </strong>
+            </p>
+          </div>
 
-            <div className="guides" id="e">
-              {/* BEST PAPER AWARD*/}
-              <h4 className="heading-title">
-                <mark>
-                  Best Paper Award : Rs.5000 Cash Prize for MBA and Rs.5000 Cash
-                  Prize for MCA
-                </mark>
-              </h4>
-            </div>
+          <div id="tab" class="list-item">
+            {/* Registtration Fees*/}
+            <h4>Registartion Fees ( After Acceptance of the Paper ) :</h4>
+            <table style={{ borderCollapse: "collapse" }}>
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Fees</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style={{ padding: "10px" }}>
+                    Academician / Research Scholar (PG and PhD Scholars)
+                  </td>
+                  <td style={{ padding: "10px" }}>
+                    Rs. 2000 (Maximum of 3 Authors)
+                  </td>
+                </tr>
+                <tr>
+                  <td style={{ padding: "10px" }}>Corporate Professionals</td>
+                  <td style={{ padding: "10px" }}>
+                    Rs. 3000 (Maximum of 3 Authors)
+                  </td>
+                </tr>
+                <tr>
+                  <td style={{ padding: "10px" }}>Foreign Delegates</td>
+                  <td style={{ padding: "10px" }}>$100</td>
+                </tr>
+                <tr>
+                  <td style={{ padding: "10px" }}>UG Students</td>
+                  <td style={{ padding: "10px" }}>Rs. 750</td>
+                </tr>
+              </tbody>
+            </table>
+            <h6 className="text-center">
+              <em>
+                <strong>
+                  Last date for Registration and Payment of registration fee:
+                  15th March 2024
+                </strong>
+              </em>
+            </h6>
+          </div>
 
-            <div className="guides" id="f">
-              {/* Registtration Fees*/}
-              <h3 className="heading-title">Registartion Fees ( After Acceptance of the Paper ) :</h3>
-              <table style={{ borderCollapse: "collapse" }}>
-                <thead>
-                  <tr>
-                    <th>Category</th>
-                    <th>Fees</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td style={{ padding: "10px" }}>
-                      Academician / Research Scholar (PG and PhD Scholars)
-                    </td>
-                    <td style={{ padding: "10px" }}>
-                      Rs. 2000 (Maximum of 3 Authors)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style={{ padding: "10px" }}>Corporate Professionals</td>
-                    <td style={{ padding: "10px" }}>
-                      Rs. 3000 (Maximum of 3 Authors)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style={{ padding: "10px" }}>Foreign Delegates</td>
-                    <td style={{ padding: "10px" }}>$100</td>
-                  </tr>
-                  <tr>
-                    <td style={{ padding: "10px" }}>UG Students</td>
-                    <td style={{ padding: "10px" }}>Rs. 750</td>
-                  </tr>
-                </tbody>
-              </table>
-              <h6 className="text-center">
-                <em>
-                  <strong>
-                    Last date for Registration and Payment of registration fee:
-                    15th March 2024
-                  </strong>
-                </em>
-              </h6>
-            </div>
+          <div id="tab" class="list-item">
+            {/* Publication Details*/}
+            <h3 className="heading-title"> Publication Details :</h3>
+            <p>
+              Selected Papers will be published in the Book series with ISBN
+              published in BP International, UK, London
+            </p>
+            {/* PHOTOS OF PUBLISHERS */}
+            <section>
+              <div class="logos">
+                <div class="logos-slide">
+                  <img src="assets/image/cross.png" />
+                  <img src="assets/image/bpi.png" />
+                  <img src="assets/image/dimensions.png" />
+                  <img src="assets/image/open.png" />
+                  <img src="assets/image/scilit.png" />
+                  <img src="assets/image/semantic.png" />
+                </div>
+                <div class="logos-slide">
+                  <img src="assets/image/cross.png" />
+                  <img src="assets/image/bpi.png" />
+                  <img src="assets/image/dimensions.png" />
+                  <img src="assets/image/open.png" />
+                  <img src="assets/image/scilit.png" />
+                  <img src="assets/image/semantic.png" />
+                </div>
+              </div>
+            </section>
+          </div>
 
-            <div className="guides" id="g">
-              {/* Publication Details*/}
-              <h3 className="heading-title"> Publication Details :</h3>
-              <p>
-              All Accepted paper will be published in Google Scholar Indexed Volume
-              </p>
-            </div>
-
-            <di className="guides" id="h">
-              {/* CONTACTS*/}
-              <h3 className="heading-title">Contact Details :</h3>
-              <ul>
-                <li>
-                  Prof. Archana Vijay, Dept. of MBA Coordinator , Coordinator ,
-                  96208 00087
-                </li>
-                <li>
-                  Prof. Suhas Patel, Dept. of MBA Coordinator , Coordinator ,
-                  96326 09776
-                </li>
-                <li>
-                  Prof. Channakeshava H C, Dept. of MBA Coordinator ,
-                  Coordinator , 90358 40001
-                </li>
-                <li>
-                  {" "}
-                  Prof. Sumit S Chowdhury, Dept. of MCA Coordinator , 85838
-                  66180
-                </li>
-                <li>
-                  Prof. Pallavi M O, Dept. of MCA Coordinator , 99160 22291
-                </li>
-                <li>
-                  Prof. Sheela Maharajpet, Dept. of MCA Coordinator , 88674
-                  13464
-                </li>
-              </ul>
-            </di>
+          <div id="tab" class="list-item">
+            <h4>Payment Details :</h4>
+            <a
+              href="https://acharyainstitutes.in/index.php?r=acerp-api/acerp-events&id=319"
+              target="_blank"
+            >
+              https://acharyainstitutes.in/index.php?r=acerp-api/acerp-events&id=319
+            </a>
           </div>
         </div>
 

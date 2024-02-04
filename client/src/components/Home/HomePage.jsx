@@ -5,6 +5,12 @@ import Tooltip from "react-bootstrap/Tooltip";
 import image from "./back.jpeg";
 
 const HomePage = () => {
+  const [openDropdown, setOpenDropdown] = useState(null);
+
+  const handleOpen = (index) => {
+    setOpenDropdown(openDropdown === index ? null : index);
+  };
+
   const [showText1, setShowText1] = useState(false);
   const [showText2, setShowText2] = useState(false);
   const [showText3, setShowText3] = useState(false);
@@ -918,71 +924,24 @@ const HomePage = () => {
                   </div>
 
                   {/* TRACK DETAILS */}
-                  <div className="container-fluid  " id="track">
-                    <p className="description">
-                      <h2 className="heading-title">
-                        {" "}
-                        <center>Track Details :</center>{" "}
-                      </h2>
-                    </p>
+                  <div id="tab" class="list-item">
+                    <h4>Technical Tracks :</h4>
 
-                    <ul>
-                      <li>
-                        <a href="#scroll-track-1">
-                          TRACK 1 : GENERAL MANAGEMENT AND HUMAN RESOURCE
-                          MANAGEMENT
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#scroll-track-2">
-                          TRACK 2 : MARKETING MANAGEMENT
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#scroll-track-3">
-                          TRACK 3 : FINANCIAL MANAGEMENT
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#scroll-track-4">
-                          TRACK 4 : ENTREPRENEURSHIP AND INNOVATIONS
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#scroll-track-5">
-                          TRACK 5 : Emerging Technologies and Other Allied Areas
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div
-                    data-bs-spy="scroll"
-                    data-bs-target="#navbar-example2"
-                    data-bs-offset="0"
-                    className="scrollspy-example"
-                    tabindex="0"
-                  >
-                    <div className="container">
-                      <div className="row">
-                        <div className="col-sm">
-                          <div id="scroll-track-1">
-                            <br />
-                            <br /> <br />
-                            <br />
-                          </div>
-
-                          <h4>
-                            TRACK 1 : GENERAL MANAGEMENT AND HUMAN RESOURCE
-                            MANAGEMENT
-                          </h4>
-                          <ul>
+                    {/* Track 1 */}
+                    <div>
+                      <div className="dropdown container-fluid">
+                        <p onClick={() => handleOpen(1)}>
+                          TRACKS 1: MANAGEMENT ( HR, Marketing, Finance )
+                        </p>
+                        {openDropdown === 1 && (
+                          <ul className="menu">
                             <li>Rethinking HR: Home as Office</li>
-                            <li>HR Role in World from Home Culture </li>
-                            <li>Virtual Employee Engagement </li>
+                            <li>HR Role in World from Home Culture</li>
+                            <li>Virtual Employee Engagement</li>
                             <li>Reimaging Onboard post pandemic</li>
                             <li>WFH - Challenges for Team HR</li>
                             <li>Diversity and Inclusion</li>
-                            <li>Building Resilience Post Covid</li>
+                            <li>Building Resilience Post Pandemic</li>
                             <li>Changing Role of HR Post Pandemic</li>
                             <li>Strategic Human Resource Management</li>
                             <li>Impact of Technology on HR</li>
@@ -993,16 +952,6 @@ const HomePage = () => {
                             <li>Practices to build healthy workplaces</li>
                             <li>Talent Acquisition</li>
                             <li>Technology in HR</li>
-                          </ul>
-                        </div>
-                        <div className="col-sm">
-                          <div id="scroll-track-2">
-                            <br />
-                            <br /> <br />
-                            <br />
-                          </div>
-                          <h4>TRACK 2 : MARKETING MANAGEMENT</h4>
-                          <ul>
                             <li>Digital Marketing</li>
                             <li>e-Marketing</li>
                             <li>Brand Management</li>
@@ -1015,18 +964,6 @@ const HomePage = () => {
                             <li>Innovations in services Marketing</li>
                             <li>Innovations in Retail Business</li>
                             <li>Rural Marketing</li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-sm">
-                          <div id="scroll-track-3">
-                            <br />
-                            <br /> <br />
-                            <br />
-                          </div>
-                          <h4>TRACK 3 : FINANCIAL MANAGEMENT</h4>
-                          <ul>
                             <li>Digital Banking</li>
                             <li>Personal Finance</li>
                             <li>Behavioural Finance</li>
@@ -1043,17 +980,17 @@ const HomePage = () => {
                             <li>Embedded Finance</li>
                             <li>ESG Investing</li>
                           </ul>
-                        </div>
-                        <div className="col-sm">
-                          <div id="scroll-track-4">
-                            <br />
-                            <br /> <br />
-                            <br />
-                          </div>
-                          <h4>TRACK 4 : ENTREPRENEURSHIP AND INNOVATIONS</h4>
+                        )}
+                      </div>
 
-                          <ul>
-                            <li>Small and Medium-Sized Enterprises (SME)</li>
+                      {/* Track 2 */}
+                      <div className="dropdown container-fluid">
+                        <p onClick={() => handleOpen(2)}>
+                          TRACK 2: MARKETING AND SALES
+                        </p>
+                        {openDropdown === 2 && (
+                          <ul className="menu">
+                            <li>Small and Medium-Sized Enterprises ( SME )</li>
                             <li>
                               Entrepreneurship, Fin Tech and Investing in future
                               business
@@ -1075,21 +1012,16 @@ const HomePage = () => {
                             </li>
                             <li>Globalization and business diversity</li>
                           </ul>
-                        </div>
+                        )}
                       </div>
 
-                      <div className="row">
-                        <div id="scroll-track-5">
-                          <br />
-                          <br /> <br />
-                          <br />
-                        </div>
-                        <h4>
-                          TRACK 5 : Emerging Technologies and Other Allied Areas
-                        </h4>
-
-                        <div className="col-sm">
-                          <ul>
+                      {/* Track 3 */}
+                      <div className="dropdown container-fluid">
+                        <p onClick={() => handleOpen(3)}>
+                          TRACK 3: TECHNOLOGY AND OPERATIONS
+                        </p>
+                        {openDropdown === 3 && (
+                          <ul className="menu">
                             <li>Business Analytics</li>
                             <li>Human Resource Analytics</li>
                             <li>Financial Analytics</li>
@@ -1105,10 +1037,6 @@ const HomePage = () => {
                             <li>PEST</li>
                             <li>Corporate Social Responsibility</li>
                             <li>Micro Environment</li>
-                          </ul>
-                        </div>
-                        <div className="col-sm">
-                          <ul>
                             <li>Multi culture Research</li>
                             <li>Business Ethics and Values</li>
                             <li>IPR, Patents and Acquisitions</li>
@@ -1128,7 +1056,7 @@ const HomePage = () => {
                             <li>Digital Financial Data Security</li>
                             <li>Digital Healthcare</li>
                           </ul>
-                        </div>
+                        )}
                       </div>
                     </div>
                   </div>
