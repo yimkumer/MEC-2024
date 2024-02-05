@@ -76,13 +76,10 @@ const ContactUs = () => {
                           <li>
                             <a href="mailto:ait.mba.mec@acharya.ac.in">
                               ait.mba.mec@acharya.ac.in
-                              {/* Domestic - admissions@acharya.ac.in */}
                             </a>
                           </li>
                           <li>
-                            <a href="mailto:international@acharya.ac.in">
-                              {/* International - international@acharya.ac.in */}
-                            </a>
+                            <a href="mailto:international@acharya.ac.in"></a>
                           </li>
                         </ul>
                       </div>
@@ -112,7 +109,6 @@ const ContactUs = () => {
                           <img
                             decoding="async"
                             src="https://radiustheme.com/demo/wordpress/themes/evacon/wp-content/uploads/2022/02/phone.svg"
-                            
                             alt="SVG Icon"
                           />
                         </span>
@@ -121,7 +117,9 @@ const ContactUs = () => {
                         <h3 className="title">Contact Us</h3>
                         <ul className="address-details">
                           <li>
-                            <a href="https://chat.whatsapp.com/J2Njcwa4e586kITK3sa9be">Click to join WhatsApp</a>
+                            <a href="https://chat.whatsapp.com/J2Njcwa4e586kITK3sa9be">
+                              Click to join WhatsApp
+                            </a>
                           </li>
                           <li>
                             {/* <a href="tel:+91 973-177-9233">+91 973-177-9233</a> */}

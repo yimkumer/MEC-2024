@@ -155,7 +155,7 @@ const Register = () => {
                 </tr>
                 <tr>
                   <td style={{ padding: "10px" }}>Date of Conference :</td>
-                  <td style={{ padding: "10px" }}>March 22 & 23, 2024</td>
+                  <td style={{ padding: "10px" }}>March 20th & 21st, 2024</td>
                 </tr>
               </tbody>
             </table>
