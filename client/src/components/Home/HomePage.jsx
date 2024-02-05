@@ -143,7 +143,7 @@ const HomePage = () => {
                                         Conference Date
                                       </div>
                                       <h3 id="counter" class="title">
-                                        Counting Time...
+                                        Countdown..
                                       </h3>
                                     </div>
                                     <div class="countdown-content">
@@ -424,13 +424,13 @@ const HomePage = () => {
                           <td className="third">Hybrid</td>
                         </tr>
                         <tr>
-                          <td className="second">If Online : </td>
+                          <td className="second">Online Mode: </td>
                           <td className="third">
                             Alive platform (Acharya LMS)
                           </td>
                         </tr>
                         <tr>
-                          <td className="second">If Offline : </td>
+                          <td className="second">Offline Mode: </td>
                           <td className="third">
                             Acharya Institute of Technology, Bengaluru 560107
                           </td>
@@ -628,7 +628,7 @@ const HomePage = () => {
                       <div id="photo" className="image container-fluid ">
                         <img id="image" src="assets/campus.jpeg" />
                       </div>
-                      <p class="font-italic">
+                      <p >
                         " Acharya Institute of Technology is committed to
                         excelling in teaching, learning, research, and
                         developing professionals who make a difference globally.
@@ -657,7 +657,7 @@ const HomePage = () => {
                       <div id="photo" className="image container-fluid ">
                         <img id="image" src="assets/karnataka.png" />
                       </div>
-                      <p class="font-italic">
+                      <p >
                         " The capital of Karnataka is Bengaluru, often referred
                         to as the "Silicon Valley of India." It is a major hub
                         for technology and innovation, hosting numerous IT
@@ -911,7 +911,7 @@ const HomePage = () => {
                   {/* Call for papers */}
                   <div id="tab" class="list-item">
                     <h4>Call for Papers :</h4>
-                    <p id="paper" class="font-italic">
+                    <p id="paper">
                       Acharya Institute of Technology, invites you to associate
                       with us for the upcoming Conference -2024, a 2 Days
                       International Conference to be held on 20th and 21st March
