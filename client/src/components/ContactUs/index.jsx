@@ -121,7 +121,7 @@ const ContactUs = () => {
                         <h3 className="title">Contact Us</h3>
                         <ul className="address-details">
                           <li>
-                            <a href="https://chat.whatsapp.com/J2Njcwa4e586kITK3sa9be">Click to join us WhatsApp</a>
+                            <a href="https://chat.whatsapp.com/J2Njcwa4e586kITK3sa9be">Click to join WhatsApp</a>
                           </li>
                           <li>
                             {/* <a href="tel:+91 973-177-9233">+91 973-177-9233</a> */}
