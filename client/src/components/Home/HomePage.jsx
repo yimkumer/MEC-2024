@@ -136,14 +136,15 @@ const HomePage = () => {
                                 <div class="countdown-inner-wrap">
                                   <div class="countdown-container">
                                     <div class="countdown-heading">
-                                      <div
-                                        style={{ paddingLeft: "10px" }}
-                                        class="sub-title"
+                                      <h3
+                                        style={{
+                                          letterSpacing: "1px",
+                                          fontSize: "120%",
+                                        }}
+                                        id="counter"
+                                        class="title"
                                       >
-                                        Conference Date
-                                      </div>
-                                      <h3 id="counter" class="title">
-                                        Countdown..
+                                        COUNTDOWN :
                                       </h3>
                                     </div>
                                     <div class="countdown-content">
@@ -628,7 +629,7 @@ const HomePage = () => {
                       <div id="photo" className="image container-fluid ">
                         <img id="image" src="assets/campus.jpeg" />
                       </div>
-                      <p >
+                      <p>
                         " Acharya Institute of Technology is committed to
                         excelling in teaching, learning, research, and
                         developing professionals who make a difference globally.
@@ -657,7 +658,7 @@ const HomePage = () => {
                       <div id="photo" className="image container-fluid ">
                         <img id="image" src="assets/karnataka.png" />
                       </div>
-                      <p >
+                      <p>
                         " The capital of Karnataka is Bengaluru, often referred
                         to as the "Silicon Valley of India." It is a major hub
                         for technology and innovation, hosting numerous IT
