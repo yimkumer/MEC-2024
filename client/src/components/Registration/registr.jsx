@@ -226,7 +226,31 @@ const Register = () => {
             </h6>
           </div>
 
+          <div id="tab" class="list-item">
+            <h4 className="comn-hdg">Payment Details :</h4>
+            <a
+              href="https://acharyainstitutes.in/index.php?r=acerp-api/acerp-events&id=319"
+              target="_blank"
+            >
+              Click to open payment gateway
+            </a>
+          </div>
+
+          <div id="tab" class="list-item">
+            <h4 className="comn-hdg">PUBLICATION DETAILS :</h4>
+            <p>
+              Selected Papers will be published in the Book series with ISBN
+              published in BP International, UK, London <br />
+            </p>
+            <h4 className="comn-hdg">PUBLICATION :</h4>
+            <p>
+              Publication : Selected Papers will be published in Book volume
+              with ISBN and Following Indexing
+            </p>
+          </div>
+
           {/* PHOTOS OF PUBLISHERS */}
+
           <section>
             <div class="logos">
               <div class="logos-slide">
@@ -247,16 +271,6 @@ const Register = () => {
               </div>
             </div>
           </section>
-
-          <div id="tab" class="list-item">
-            <h4 className="comn-hdg">Payment Details :</h4>
-            <a
-              href="https://acharyainstitutes.in/index.php?r=acerp-api/acerp-events&id=319"
-              target="_blank"
-            >
-              Click to open payment gateway
-            </a>
-          </div>
         </div>
 
         {/* Social media links */}

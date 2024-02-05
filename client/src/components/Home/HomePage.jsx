@@ -1068,6 +1068,19 @@ const HomePage = () => {
                       </div>
                     </div>
                   </div>
+
+                  <div id="tab" class="list-item">
+                    <h4 className="comn-hdg">PUBLICATION DETAILS :</h4>
+                    <p>
+                      Selected Papers will be published in the Book series with
+                      ISBN published in BP International, UK, London <br />
+                    </p>
+                    <h4 className="comn-hdg">PUBLICATION :</h4>
+                    <p>
+                      Publication : Selected Papers will be published in Book
+                      volume with ISBN and Following Indexing -
+                    </p>
+                  </div>
                   {/* logos slider */}
                   <section>
                     <div class="logos">
