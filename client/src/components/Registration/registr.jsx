@@ -4,7 +4,7 @@ import Map from "../Map";
 const Register = () => {
   return (
     <div className="elementor elementor-1061">
-      <section className="elementor-section " data-element_type="section">
+      <section>
         <div className="a mt-2 shadow p-4 rounded">
           <div className="">
             <img src="assets/a.svg" style={{ width: 200, height: 37 }} />
@@ -220,35 +220,27 @@ const Register = () => {
             </h6>
           </div>
 
-          <div id="tab" class="list-item">
-            {/* Publication Details*/}
-            <h4> Publication Details :</h4>
-            <p>
-              Selected Papers will be published in the Book series with ISBN
-              published in BP International, UK, London
-            </p>
-            {/* PHOTOS OF PUBLISHERS */}
-            <section>
-              <div class="logos">
-                <div class="logos-slide">
-                  <img src="assets/image/cross.png" />
-                  <img src="assets/image/bpi.png" />
-                  <img src="assets/image/dimensions.png" />
-                  <img src="assets/image/open.png" />
-                  <img src="assets/image/scilit.png" />
-                  <img src="assets/image/semantic.png" />
-                </div>
-                <div class="logos-slide">
-                  <img src="assets/image/cross.png" />
-                  <img src="assets/image/bpi.png" />
-                  <img src="assets/image/dimensions.png" />
-                  <img src="assets/image/open.png" />
-                  <img src="assets/image/scilit.png" />
-                  <img src="assets/image/semantic.png" />
-                </div>
+          {/* PHOTOS OF PUBLISHERS */}
+          <section>
+            <div class="logos">
+              <div class="logos-slide">
+                <img src="assets/image/cross.png" />
+                <img src="assets/image/bpi.png" />
+                <img src="assets/image/dimensions.png" />
+                <img src="assets/image/open.png" />
+                <img src="assets/image/scilit.png" />
+                <img src="assets/image/semantic.png" />
               </div>
-            </section>
-          </div>
+              <div class="logos-slide">
+                <img src="assets/image/cross.png" />
+                <img src="assets/image/bpi.png" />
+                <img src="assets/image/dimensions.png" />
+                <img src="assets/image/open.png" />
+                <img src="assets/image/scilit.png" />
+                <img src="assets/image/semantic.png" />
+              </div>
+            </div>
+          </section>
 
           <div id="tab" class="list-item">
             <h4>Payment Details :</h4>

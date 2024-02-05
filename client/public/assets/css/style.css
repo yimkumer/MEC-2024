@@ -1,16 +1,30 @@
 
 #t1 img {
-  width: 30px;
-  height: 30px;
-  float: right; /* Position icon at the right */
-  margin-left: 5px; /* Add spacing between text and icon */
+  width: 15px;
+  height: 15px;
+  float: right; 
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  #t1 {
+    max-width: 100%; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #t1 {
+    max-width: 80%;
+  }
 }
 
 #t1 {
   margin-top: 10px;
+  width: 500px;
   margin-bottom: 10px;
   display: inline-block;
-  padding: 10px 15px; /* Adjust as needed */
+  padding: 10px 15px; 
   border: 1px solid #ccc;
   border-radius: 5px;
   cursor: pointer;
@@ -29,7 +43,7 @@
 }
 
 #t1:focus {
-  outline: 2px solid #EC9220; /* Visible focus indicator for accessibility */
+  outline: 2px solid #EC9220;
 }
 
 

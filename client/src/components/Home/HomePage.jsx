@@ -3,6 +3,7 @@ import { default as React, useEffect, useState } from "react";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 import image from "./back.jpeg";
+import KeyNoteSpeakers from "./KeyNoteSpeakers";
 
 const HomePage = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -421,7 +422,7 @@ const HomePage = () => {
                           </td>
                         </tr>
                         <tr>
-                          <td className="second">Types of Program :</td>
+                          <td className="second">Mode of Program :</td>
                           <td className="third">Hybrid</td>
                         </tr>
                         <tr>
@@ -906,7 +907,7 @@ const HomePage = () => {
 
                   {/* Resource Persons */}
                   <div id="tab" class="list-item">
-                    <h4>Resource Persons Details :</h4>
+                    <KeyNoteSpeakers />
                   </div>
 
                   {/* Call for papers */}
@@ -986,13 +987,16 @@ const HomePage = () => {
                       </div>
 
                       {/* Track 2 */}
-                      <div className="dropdown container-fluid">
+                      <div
+                        class="container-fluid"
+                        className="dropdown container-fluid"
+                      >
                         <p id="t1" onClick={() => handleOpen(2)}>
                           TRACK 2: MARKETING AND SALES
                           <img src="assets/down.png" alt="+" />
                         </p>
                         {openDropdown === 2 && (
-                          <ul className="menu">
+                          <ul id="ts" className="menu">
                             <li>Small and Medium-Sized Enterprises ( SME )</li>
                             <li>
                               Entrepreneurship, Fin Tech and Investing in future
@@ -1064,6 +1068,27 @@ const HomePage = () => {
                       </div>
                     </div>
                   </div>
+                  {/* logos slider */}
+                  <section>
+                    <div class="logos">
+                      <div class="logos-slide">
+                        <img src="assets/image/cross.png" />
+                        <img src="assets/image/bpi.png" />
+                        <img src="assets/image/dimensions.png" />
+                        <img src="assets/image/open.png" />
+                        <img src="assets/image/scilit.png" />
+                        <img src="assets/image/semantic.png" />
+                      </div>
+                      <div class="logos-slide">
+                        <img src="assets/image/cross.png" />
+                        <img src="assets/image/bpi.png" />
+                        <img src="assets/image/dimensions.png" />
+                        <img src="assets/image/open.png" />
+                        <img src="assets/image/scilit.png" />
+                        <img src="assets/image/semantic.png" />
+                      </div>
+                    </div>
+                  </section>
                 </section>
               </div>
             </div>
