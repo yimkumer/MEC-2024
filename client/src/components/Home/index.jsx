@@ -9,7 +9,6 @@ import HomePage from "./HomePage";
 const Home = () => {
   return (
     <div>
-      <Header />
       <HomePage />
       <Photos />
       <ContactUs />

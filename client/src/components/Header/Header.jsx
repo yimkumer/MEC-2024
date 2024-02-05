@@ -11,11 +11,10 @@ const Header = () => {
               <div className="inner-wrap">
                 <div className="d-flex align-items-center justify-content-between">
                   <div className="site-branding">
-                    <div className="header-logo logo-1 logo-light">
+                    <div id="back" className="header-logo logo-1 logo-light">
                       <a href="/home">
                         <img
                           style={{
-                            border: "1px solid #093ed2",
                             width: 80,
                             height: 80,
                             backgroundColor: "#ffffff",

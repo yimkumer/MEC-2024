@@ -1,6 +1,11 @@
+#back{
+  background-color: #fff;
+}
 
-
-
+#top{
+  width: 70px; height: 70px;
+  margin-left: 40px;
+}
 #t1 img {
   width: 15px;
   height: 15px;

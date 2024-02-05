@@ -3,9 +3,9 @@ import Map from "../Map";
 
 const Register = () => {
   return (
-    <div className="elementor elementor-1061">
+    <div id="back" className="elementor elementor-1061">
       <div className="shadow p-3 ">
-        <img src="assets/head2.png" style={{ width: 70, height: 70 }} />
+        <img id="top" src="assets/head2.png" />
       </div>
 
       <section
@@ -72,7 +72,7 @@ const Register = () => {
               </li>
               <li>
                 Step 7: After the final confirmation for acceptance of the
-                manuscript from MTEC Editorial Board, author(s) will be notified
+                manuscript from METC Editorial Board, author(s) will be notified
                 through acceptance mail
               </li>
             </ul>
