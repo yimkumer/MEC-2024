@@ -25,21 +25,23 @@ const Register = () => {
             </h3>
           </div>
           <div id="tab" class="list-item">
-            <h4>Submission Guidelines :</h4>
+            <h4 className="comn-hdg">Submission Guidelines :</h4>
             <p>
               The papers should be in the following formats: Publisher format
               (BPI)
             </p>
           </div>
           <div id="tab" class="list-item">
-            <h4>Plagiarism Policy :</h4>
+            <h4 className="comn-hdg">Plagiarism Policy :</h4>
             <p>
               Article should be checked through Turnitin with less than 10-15 %
               of similarity Index
             </p>
           </div>
           <div id="tab" class="list-item">
-            <h4>Review Process & Acceptance Notification :</h4>
+            <h4 className="comn-hdg">
+              Review Process & Acceptance Notification :
+            </h4>
             <p>Review Process -</p>
             <ul style={{ textAlign: "left" }}>
               <li>
@@ -114,7 +116,7 @@ const Register = () => {
           </div>
 
           <div id="tab" class="list-item">
-            <h4>Submission Link :</h4>
+            <h4 className="comn-hdg">Submission Link :</h4>
             <a
               href="https://cmt3.research.microsoft.com/MEC2024"
               target="_blank"
@@ -124,7 +126,7 @@ const Register = () => {
           </div>
 
           <div id="tab" class="list-item">
-            <h4>Important Dates :</h4>
+            <h4 className="comn-hdg">Important Dates :</h4>
             <table style={{ borderCollapse: "collapse" }}>
               <tbody>
                 <tr>
@@ -177,7 +179,9 @@ const Register = () => {
 
           <div id="tab" class="list-item">
             {/* Registtration Fees*/}
-            <h4>Registartion Fees ( After Acceptance of the Paper ) :</h4>
+            <h4 className="comn-hdg">
+              Registartion Fees ( After Acceptance of the Paper ) :
+            </h4>
             <table style={{ borderCollapse: "collapse" }}>
               <thead>
                 <tr>
@@ -243,7 +247,7 @@ const Register = () => {
           </section>
 
           <div id="tab" class="list-item">
-            <h4>Payment Details :</h4>
+            <h4 className="comn-hdg">Payment Details :</h4>
             <a
               href="https://acharyainstitutes.in/index.php?r=acerp-api/acerp-events&id=319"
               target="_blank"

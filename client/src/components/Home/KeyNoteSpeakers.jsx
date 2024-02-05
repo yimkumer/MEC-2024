@@ -8,122 +8,57 @@ const KeyNoteSpeakers = () => {
           <div className="col col-xs-12">
             <p className="comn-hdg wow fadeInLeft">Keynote Speakers</p>
             <div className="team-grids">
+              {/* first  */}
               <div className="galrypage">
                 <div className="grid gallery-items">
-                  <div className="img-social">
-                    <div className="img-holder">
-                      <img
-                        src="assets/DrPrasenjit.png"
-                        className="img-thumbnail"
-                      />
-                      <div className="b-wrapper col-sm-12">
-                        <span className="name">
-                          Dr. Jaume Anguera, 1st IEEE Fellow, Founder and CTO at
-                          Ignion
-                        </span>
-                        <span className="designation">
-                          {" "}
-                          Associate Professor at Universitat Ramon Llull, IEEE
-                          Distinguished Professor
-                        </span>
-                        <span className="qual">United Kingdom.</span>
-                        <div
-                          data-toggle="modal"
-                          data-target="#modal1"
-                          className="preconference"
-                          data-title="Dr. Jaume Anguera, 1st IEEE Fellow, Founder and CTO at Ignion"
-                        ></div>
-                      </div>
+                  <div className="img-holder">
+                    <img
+                      src="assets/DrPrasenjit.png"
+                      className="img-thumbnail"
+                    />
+                    <div className="b-wrapper col-sm-12">
+                      <span className="name">Dr. Prasenjit Dey</span>
+                      <span className="designation">
+                        {" "}
+                        Assistant Professor,Department of Computer Science and
+                        Engineering, National Institute of Technology Rourkela,
+                        India
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="grid gallery-items">
-                <div className="img-social">
+
+              {/* second  */}
+              <div className="galrypage">
+                <div className="grid gallery-items">
                   <div className="img-holder">
-                    <img
-                      src="keynotespeakers/Stefan.jpg"
-                      className="img-thumbnail"
-                    />
+                    <img src="assets/DrNikhil.png" className="img-thumbnail" />
                     <div className="b-wrapper col-sm-12">
-                      <span className="name">Dr. Stefan Mangold, founder</span>
+                      <span className="name">Dr. Nikhil Sikri</span>
                       <span className="designation">
-                        Gen­eral Man­ager of Loveﬁeld Wire­less
+                        {" "}
+                        Co-Founder & CEO at Zolo Bengaluru,karnataka - India
                       </span>
-                      <span className="qual">Switzerland</span>
-                      <div
-                        data-toggle="modal"
-                        data-target="#modal2"
-                        className="preconference"
-                        data-title="Dr. Stefan Mangold, founder"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="modal fade pre-modal" id="modal2" role="dialog">
-                  <div className="modal-dialog">
-                    <div className="modal-content">
-                      <div className="modal-header"></div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="grid gallery-items">
-                <div className="img-social">
+
+              {/* third  */}
+              <div className="galrypage">
+                <div className="grid gallery-items">
                   <div className="img-holder">
-                    <img
-                      src="keynotespeakers/Stefan.jpg"
-                      className="img-thumbnail"
-                    />
+                    <img src="assets/DrMousumi.png" className="img-thumbnail" />
                     <div className="b-wrapper col-sm-12">
-                      <span className="name">Dr. Stefan Mangold, founder</span>
+                      <span className="name">Dr. Mousumi Senguptay</span>
                       <span className="designation">
-                        Gen­eral Man­ager of Loveﬁeld Wire­less
+                        {" "}
+                        M.A. (TVU, U.K.), GradIPD (IPD, U.K.), Ph.D. (IIT,
+                        Kharagpur) Chairperson - SDM Research Center for
+                        Management Studies (SDM RCMS) Editor-in-Chief- SDMIMD
+                        Journal of Management
                       </span>
-                      <span className="qual">Switzerland</span>
-                      <div
-                        data-toggle="modal"
-                        data-target="#modal2"
-                        className="preconference"
-                        data-title="Dr. Stefan Mangold, founder"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="modal fade pre-modal" id="modal2" role="dialog">
-                  <div className="modal-dialog">
-                    <div className="modal-content">
-                      <div className="modal-header"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="grid gallery-items">
-                <div className="img-social">
-                  <div className="img-holder">
-                    <img
-                      src="keynotespeakers/Stefan.jpg"
-                      className="img-thumbnail"
-                    />
-                    <div className="b-wrapper col-sm-12">
-                      <span className="name">Dr. Stefan Mangold, founder</span>
-                      <span className="designation">
-                        Gen­eral Man­ager of Loveﬁeld Wire­less
-                      </span>
-                      <span className="qual">Switzerland</span>
-                      <div
-                        data-toggle="modal"
-                        data-target="#modal2"
-                        className="preconference"
-                        data-title="Dr. Stefan Mangold, founder"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="modal fade pre-modal" id="modal2" role="dialog">
-                  <div className="modal-dialog">
-                    <div className="modal-content">
-                      <div className="modal-header"></div>
                     </div>
                   </div>
                 </div>

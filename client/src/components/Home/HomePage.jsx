@@ -422,7 +422,7 @@ const HomePage = () => {
                           </td>
                         </tr>
                         <tr>
-                          <td className="second">Mode of Program :</td>
+                          <td className="second">Mode of Conference :</td>
                           <td className="third">Hybrid</td>
                         </tr>
                         <tr>
@@ -548,7 +548,7 @@ const HomePage = () => {
                           <div className="elementor-widget-container">
                             {/* About the conference */}
                             <p className="description">
-                              <h4 className="heading-title">
+                              <h4 className="heading-title comn-hdg">
                                 About the Conference :
                               </h4>
                               Welcome to METC 2024 - the International
@@ -574,7 +574,7 @@ const HomePage = () => {
 
                             {/* Important Dates */}
                             <p className="description">
-                              <h4 className="heading-title">
+                              <h4 className="heading-title comn-hdg">
                                 Objectives of the Program :
                               </h4>
                             </p>
@@ -626,7 +626,7 @@ const HomePage = () => {
                   {/* About acharya  */}
                   <div id="box" className="container-fluid  ">
                     <div id="description" className="text container-fluid ">
-                      <h4>About Acharya</h4>
+                      <h4 className="comn-hdg">About Acharya</h4>
                       <div id="photo" className="image container-fluid ">
                         <img id="image" src="assets/campus.jpeg" />
                       </div>
@@ -655,7 +655,7 @@ const HomePage = () => {
                   {/* About Karnataka  */}
                   <div id="box" className="container-fluid  ">
                     <div id="description" className="text container-fluid ">
-                      <h4>About Karnataka</h4>
+                      <h4 className="comn-hdg">About Karnataka</h4>
                       <div id="photo" className="image container-fluid ">
                         <img id="image" src="assets/karnataka.png" />
                       </div>
@@ -707,8 +707,8 @@ const HomePage = () => {
                   <div id="lists" class="container-fluid">
                     <div id="f1" class="lists-grid">
                       <div class="list-item">
-                        <h4>
-                          <span class="right-aligned-underline">Patrons :</span>
+                        <h4 className="comn-hdg">
+                          <span class="right-aligned">Patrons :</span>
                         </h4>
                         <ol>
                           <li>
@@ -741,8 +741,8 @@ const HomePage = () => {
                         </ol>
                       </div>
                       <div class="list-item">
-                        <h4 style={{ fontSize: "140%" }}>
-                          <span class="right-aligned-underline">
+                        <h4 className="comn-hdg" style={{ fontSize: "140%" }}>
+                          <span class="right-aligned">
                             International Advisory Committee :
                           </span>
                         </h4>
@@ -763,8 +763,8 @@ const HomePage = () => {
                         </ol>
                       </div>
                       <div class="list-item">
-                        <h4>
-                          <span class="right-aligned-underline">
+                        <h4 className="comn-hdg">
+                          <span class="right-aligned">
                             National Advisory Committee :
                           </span>
                         </h4>
@@ -790,16 +790,16 @@ const HomePage = () => {
                     </div>
 
                     <div class="list-item">
-                      <h4>Program Chair :</h4>
+                      <h4 className="comn-hdg">Program Chair :</h4>
                       <p>
                         Dr. Juin Choudhury, Head of the Department, MBA, AIT
                       </p>
-                      <h4>Program Co-Chair :</h4>
+                      <h4 className="comn-hdg">Program Co-Chair :</h4>
                       <p>
                         Dr. Ratnakirti Roy, Head of the Department, MCA, AIT
                       </p>
-                      <h4>
-                        <span class="right-aligned-underline">Convener :</span>
+                      <h4 className="comn-hdg">
+                        <span class="right-aligned">Convener :</span>
                       </h4>
                       <ul>
                         <li>
@@ -828,7 +828,7 @@ const HomePage = () => {
 
                   {/* Committe Members */}
                   <div id="tab" class="list-item">
-                    <h4>Committee Members :</h4>
+                    <h4 className="comn-hdg">Committee Members :</h4>
                     <table>
                       <tbody>
                         <tr>
@@ -912,7 +912,7 @@ const HomePage = () => {
 
                   {/* Call for papers */}
                   <div id="tab" class="list-item">
-                    <h4>Call for Papers :</h4>
+                    <h4 className="comn-hdg">Call for Papers :</h4>
                     <p id="paper">
                       Acharya Institute of Technology, invites you to associate
                       with us for the upcoming Conference -2024, a 2 Days
@@ -927,7 +927,7 @@ const HomePage = () => {
 
                   {/* TRACK DETAILS */}
                   <div id="tab" class="list-item">
-                    <h4>Technical Tracks :</h4>
+                    <h4 className="comn-hdg">Technical Tracks :</h4>
 
                     {/* Track 1 */}
                     <div>
