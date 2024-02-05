@@ -1,4 +1,6 @@
 
+
+
 #t1 img {
   width: 15px;
   height: 15px;
@@ -315,6 +317,7 @@ font-weight: 20;}
 }
 
 #details{
+  margin-top: 30px;
     letter-spacing: 1px;
     text-indent: 4px;
     

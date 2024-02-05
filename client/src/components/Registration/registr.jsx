@@ -4,13 +4,9 @@ import Map from "../Map";
 const Register = () => {
   return (
     <div className="elementor elementor-1061">
-      <section>
-        <div className="a mt-2 shadow p-4 rounded">
-          <div className="">
-            <img src="assets/head2.png" style={{ width: 70, height: 70 }} />
-          </div>
-        </div>
-      </section>
+      <div className="shadow p-3 ">
+        <img src="assets/head2.png" style={{ width: 70, height: 70 }} />
+      </div>
 
       <section
         className="elementor-section elementor-top-section elementor-element elementor-element-9881757 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -117,12 +113,19 @@ const Register = () => {
 
           <div id="tab" class="list-item">
             <h4 className="comn-hdg">Submission Link :</h4>
-            <a
-              href="https://cmt3.research.microsoft.com/MEC2024"
-              target="_blank"
+            <div
+              className="hero-btns wow "
+              data-wow-delay="1.5s"
+              data-wow-duration="1s"
             >
-              Click here to submit your paper
-            </a>
+              <a
+                href="https://cmt3.research.microsoft.com/MEC2024"
+                className="btn-fill style-one"
+                target="_blank"
+              >
+                Submit your paper
+              </a>
+            </div>
           </div>
 
           <div id="tab" class="list-item">
@@ -228,12 +231,19 @@ const Register = () => {
 
           <div id="tab" class="list-item">
             <h4 className="comn-hdg">Payment Details :</h4>
-            <a
-              href="https://acharyainstitutes.in/index.php?r=acerp-api/acerp-events&id=319"
-              target="_blank"
+            <div
+              className="hero-btns wow "
+              data-wow-delay="1.5s"
+              data-wow-duration="1s"
             >
-              Click to open payment gateway
-            </a>
+              <a
+                href="https://acharyainstitutes.in/index.php?r=acerp-api/acerp-events&id=319"
+                className="btn-fill style-one"
+                target="_blank"
+              >
+                Open payment gateway
+              </a>
+            </div>
           </div>
 
           <div id="tab" class="list-item">
