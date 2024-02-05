@@ -3,8 +3,8 @@ import Map from "../Map";
 
 const Register = () => {
   return (
-    <div id="back" className="elementor elementor-1061">
-      <div className="shadow p-3 ">
+    <div className="elementor elementor-1061">
+      <div id="back" className="shadow p-3 ">
         <img id="top" src="assets/head2.png" />
       </div>
 
