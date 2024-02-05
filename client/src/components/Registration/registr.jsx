@@ -18,7 +18,7 @@ const Register = () => {
       >
         {/* Form border  */}
 
-        <div id="details" className="col-md-12 shadow p-5 mb-4 rounded">
+        <div id="details" className="col-md-12 shadow  mb-4 rounded">
           <div className="guides" id="e">
             <h3 className="heading-title">
               <mark>Carefully go through the information given below</mark>
