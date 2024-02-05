@@ -7,7 +7,7 @@ const Register = () => {
       <section>
         <div className="a mt-2 shadow p-4 rounded">
           <div className="">
-            <img src="assets/a.svg" style={{ width: 200, height: 37 }} />
+            <img src="assets/head2.png" style={{ width: 70, height: 70 }} />
           </div>
         </div>
       </section>
@@ -131,28 +131,30 @@ const Register = () => {
               <tbody>
                 <tr>
                   <td style={{ padding: "10px" }}>
-                    Submission Deadline abstract, poster and oral presentation
+                    Submission Deadline abstract, poster and oral presentation :
                   </td>
                   <td style={{ padding: "10px" }}>Feb 16, 2024</td>
                 </tr>
                 <tr>
                   <td style={{ padding: "10px" }}>
-                    Acceptance Notification and Registration Starts
+                    Acceptance Notification and Registration Starts :
                   </td>
                   <td style={{ padding: "10px" }}>Feb 20, 2024</td>
                 </tr>
                 <tr>
                   <td style={{ padding: "10px" }}>
-                    Final Call for Camera Ready Paper
+                    Final Call for Camera Ready Paper :
                   </td>
                   <td style={{ padding: "10px" }}>March 9, 2024</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: "10px" }}>Last date of Registration</td>
+                  <td style={{ padding: "10px" }}>
+                    Last date of Registration :
+                  </td>
                   <td style={{ padding: "10px" }}>March 15, 2024</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: "10px" }}>Date of Conference</td>
+                  <td style={{ padding: "10px" }}>Date of Conference :</td>
                   <td style={{ padding: "10px" }}>March 22 & 23, 2024</td>
                 </tr>
               </tbody>
@@ -192,24 +194,24 @@ const Register = () => {
               <tbody>
                 <tr>
                   <td style={{ padding: "10px" }}>
-                    Academician / Research Scholar (PG and PhD Scholars)
+                    Academician / Research Scholar (PG and PhD Scholars) :
                   </td>
                   <td style={{ padding: "10px" }}>
                     Rs. 2000 (Maximum of 3 Authors)
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ padding: "10px" }}>Corporate Professionals</td>
+                  <td style={{ padding: "10px" }}>Corporate Professionals :</td>
                   <td style={{ padding: "10px" }}>
                     Rs. 3000 (Maximum of 3 Authors)
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ padding: "10px" }}>Foreign Delegates</td>
+                  <td style={{ padding: "10px" }}>Foreign Delegates :</td>
                   <td style={{ padding: "10px" }}>$100</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: "10px" }}>UG Students</td>
+                  <td style={{ padding: "10px" }}>UG Students :</td>
                   <td style={{ padding: "10px" }}>Rs. 750</td>
                 </tr>
               </tbody>
