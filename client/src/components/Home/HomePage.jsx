@@ -931,8 +931,9 @@ const HomePage = () => {
                     {/* Track 1 */}
                     <div>
                       <div className="dropdown container-fluid">
-                        <p onClick={() => handleOpen(1)}>
+                        <p id="t1" onClick={() => handleOpen(1)}>
                           TRACKS 1: MANAGEMENT ( HR, Marketing, Finance )
+                          <img src="assets/down.png" alt="+" />
                         </p>
                         {openDropdown === 1 && (
                           <ul className="menu">
@@ -986,8 +987,9 @@ const HomePage = () => {
 
                       {/* Track 2 */}
                       <div className="dropdown container-fluid">
-                        <p onClick={() => handleOpen(2)}>
+                        <p id="t1" onClick={() => handleOpen(2)}>
                           TRACK 2: MARKETING AND SALES
+                          <img src="assets/down.png" alt="+" />
                         </p>
                         {openDropdown === 2 && (
                           <ul className="menu">
@@ -1018,8 +1020,9 @@ const HomePage = () => {
 
                       {/* Track 3 */}
                       <div className="dropdown container-fluid">
-                        <p onClick={() => handleOpen(3)}>
+                        <p id="t1" onClick={() => handleOpen(3)}>
                           TRACK 3: TECHNOLOGY AND OPERATIONS
+                          <img src="assets/down.png" alt="+" />
                         </p>
                         {openDropdown === 3 && (
                           <ul className="menu">
