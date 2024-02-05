@@ -12,30 +12,28 @@ const KeyNoteSpeakers = () => {
                 <div className="grid gallery-items">
                   <div className="img-social">
                     <div className="img-holder">
-                      <a className="gallery_img" href="#">
-                        <img
-                          src="assets/DrPrasenjit.png"
-                          className="img-thumbnail"
-                        />
-                        <div className="b-wrapper col-sm-12">
-                          <span className="name">
-                            Dr. Jaume Anguera, 1st IEEE Fellow, Founder and CTO
-                            at Ignion
-                          </span>
-                          <span className="designation">
-                            {" "}
-                            Associate Professor at Universitat Ramon Llull, IEEE
-                            Distinguished Professor
-                          </span>
-                          <span className="qual">United Kingdom.</span>
-                          <div
-                            data-toggle="modal"
-                            data-target="#modal1"
-                            className="preconference"
-                            data-title="Dr. Jaume Anguera, 1st IEEE Fellow, Founder and CTO at Ignion"
-                          ></div>
-                        </div>
-                      </a>
+                      <img
+                        src="assets/DrPrasenjit.png"
+                        className="img-thumbnail"
+                      />
+                      <div className="b-wrapper col-sm-12">
+                        <span className="name">
+                          Dr. Jaume Anguera, 1st IEEE Fellow, Founder and CTO at
+                          Ignion
+                        </span>
+                        <span className="designation">
+                          {" "}
+                          Associate Professor at Universitat Ramon Llull, IEEE
+                          Distinguished Professor
+                        </span>
+                        <span className="qual">United Kingdom.</span>
+                        <div
+                          data-toggle="modal"
+                          data-target="#modal1"
+                          className="preconference"
+                          data-title="Dr. Jaume Anguera, 1st IEEE Fellow, Founder and CTO at Ignion"
+                        ></div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -43,27 +41,23 @@ const KeyNoteSpeakers = () => {
               <div className="grid gallery-items">
                 <div className="img-social">
                   <div className="img-holder">
-                    <a className="gallery_img" href="#">
-                      <img
-                        src="keynotespeakers/Stefan.jpg"
-                        className="img-thumbnail"
-                      />
-                      <div className="b-wrapper col-sm-12">
-                        <span className="name">
-                          Dr. Stefan Mangold, founder
-                        </span>
-                        <span className="designation">
-                          Gen­eral Man­ager of Loveﬁeld Wire­less
-                        </span>
-                        <span className="qual">Switzerland</span>
-                        <div
-                          data-toggle="modal"
-                          data-target="#modal2"
-                          className="preconference"
-                          data-title="Dr. Stefan Mangold, founder"
-                        ></div>
-                      </div>
-                    </a>
+                    <img
+                      src="keynotespeakers/Stefan.jpg"
+                      className="img-thumbnail"
+                    />
+                    <div className="b-wrapper col-sm-12">
+                      <span className="name">Dr. Stefan Mangold, founder</span>
+                      <span className="designation">
+                        Gen­eral Man­ager of Loveﬁeld Wire­less
+                      </span>
+                      <span className="qual">Switzerland</span>
+                      <div
+                        data-toggle="modal"
+                        data-target="#modal2"
+                        className="preconference"
+                        data-title="Dr. Stefan Mangold, founder"
+                      ></div>
+                    </div>
                   </div>
                 </div>
                 <div className="modal fade pre-modal" id="modal2" role="dialog">
@@ -77,27 +71,23 @@ const KeyNoteSpeakers = () => {
               <div className="grid gallery-items">
                 <div className="img-social">
                   <div className="img-holder">
-                    <a className="gallery_img" href="#">
-                      <img
-                        src="keynotespeakers/Stefan.jpg"
-                        className="img-thumbnail"
-                      />
-                      <div className="b-wrapper col-sm-12">
-                        <span className="name">
-                          Dr. Stefan Mangold, founder
-                        </span>
-                        <span className="designation">
-                          Gen­eral Man­ager of Loveﬁeld Wire­less
-                        </span>
-                        <span className="qual">Switzerland</span>
-                        <div
-                          data-toggle="modal"
-                          data-target="#modal2"
-                          className="preconference"
-                          data-title="Dr. Stefan Mangold, founder"
-                        ></div>
-                      </div>
-                    </a>
+                    <img
+                      src="keynotespeakers/Stefan.jpg"
+                      className="img-thumbnail"
+                    />
+                    <div className="b-wrapper col-sm-12">
+                      <span className="name">Dr. Stefan Mangold, founder</span>
+                      <span className="designation">
+                        Gen­eral Man­ager of Loveﬁeld Wire­less
+                      </span>
+                      <span className="qual">Switzerland</span>
+                      <div
+                        data-toggle="modal"
+                        data-target="#modal2"
+                        className="preconference"
+                        data-title="Dr. Stefan Mangold, founder"
+                      ></div>
+                    </div>
                   </div>
                 </div>
                 <div className="modal fade pre-modal" id="modal2" role="dialog">
@@ -111,27 +101,23 @@ const KeyNoteSpeakers = () => {
               <div className="grid gallery-items">
                 <div className="img-social">
                   <div className="img-holder">
-                    <a className="gallery_img" href="#">
-                      <img
-                        src="keynotespeakers/Stefan.jpg"
-                        className="img-thumbnail"
-                      />
-                      <div className="b-wrapper col-sm-12">
-                        <span className="name">
-                          Dr. Stefan Mangold, founder
-                        </span>
-                        <span className="designation">
-                          Gen­eral Man­ager of Loveﬁeld Wire­less
-                        </span>
-                        <span className="qual">Switzerland</span>
-                        <div
-                          data-toggle="modal"
-                          data-target="#modal2"
-                          className="preconference"
-                          data-title="Dr. Stefan Mangold, founder"
-                        ></div>
-                      </div>
-                    </a>
+                    <img
+                      src="keynotespeakers/Stefan.jpg"
+                      className="img-thumbnail"
+                    />
+                    <div className="b-wrapper col-sm-12">
+                      <span className="name">Dr. Stefan Mangold, founder</span>
+                      <span className="designation">
+                        Gen­eral Man­ager of Loveﬁeld Wire­less
+                      </span>
+                      <span className="qual">Switzerland</span>
+                      <div
+                        data-toggle="modal"
+                        data-target="#modal2"
+                        className="preconference"
+                        data-title="Dr. Stefan Mangold, founder"
+                      ></div>
+                    </div>
                   </div>
                 </div>
                 <div className="modal fade pre-modal" id="modal2" role="dialog">
