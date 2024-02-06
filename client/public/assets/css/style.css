@@ -1,7 +1,7 @@
 
 
 *{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family:'Roboto', sans-serif !important;
 }
 p{
   font-size: 19px;
@@ -13,6 +13,12 @@ td{
   font-size: 19px;
 }
 
+#tap{
+  background-color:#fff ;
+  padding: 15px;
+  color: #0834af;
+  font-weight: bold;
+}
 #mt1{
   color: #fff;
   background-color: #EC9220;
@@ -84,31 +90,51 @@ td{
   display: block;
 }
 }
+ 
+#colon{
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#d,#h,#m,#s{
+  font-weight: 500;
+   font-family:'Roboto', sans-serif !important;
+}
 
 #countt{
   letter-spacing: 1px;
   font-size: 3rem;
+   font-family:'Roboto', sans-serif !important;
 }
+
+
 #day,#hour,#minute,#second{
   font-size: 3rem;
   font-weight: bold;
-  /* background-color: #093ed2; */
-  border-radius: 10px;
   padding: 10px;
-  margin: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+   font-family:'Roboto', sans-serif !important;
 }
 #countdown{
+  
+  width: fit-content;
+  background-color: #0834af;
   margin:0;
-  padding: 0;
-  box-sizing: border-box;
+  border-radius: 15px;
   color: #fff;
- display: flex;
- justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center; /* or flex-end or center */
 }
 
 #c{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family:'Roboto', sans-serif !important;
   margin-top: 60px;
+  margin-bottom: 60px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -369,9 +395,9 @@ tr:hover {
 #confernce{
   margin-bottom: 50px;
   color: white;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family:'Roboto', sans-serif !important;
   font-size:250%;
-  letter-spacing: 05px; 
+  
 font-weight: 20;}
 
 #track ul{
@@ -534,7 +560,7 @@ font-weight: 20;}
 .wp-block-code {
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-family: Menlo, Consolas, monaco, monospace;
+  font-family: "Roboto";
   padding: 0.8em 1em;
 }
 
@@ -1214,7 +1240,7 @@ body .is-layout-grid > * {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-size: 16px;
   line-height: 28px;
   font-weight: normal;
@@ -1222,7 +1248,7 @@ body {
 }
 
 nav.template-main-menu > ul li a {
-  font-family: "Raleway", sans-serif !important;
+  font-family: "Roboto";
   font-size: 15px !important;
   line-height: 28px !important;
   font-weight: 700 !important;
@@ -1244,7 +1270,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif !important;
+  font-family: "Roboto";
   font-weight: 700;
 }
 

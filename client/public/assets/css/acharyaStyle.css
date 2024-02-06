@@ -2,8 +2,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-    /*font-family: "Open Sans", sans-serif;*/
-    font-family: "Roboto", sans-serif;
+   
+     font-family:'Roboto', sans-serif !important;
     color: #444;
     line-height: 1.8em;
     font-size: 1rem;
@@ -20,14 +20,14 @@ body {
   }
   
   h1, h2, h3, h4, h5, h6 {
-   /* font-family: Raleway;*/
+     font-family:'Roboto', sans-serif !important;
    color: #444;
   }
   h1{
       color: #131e4a;
       font-size: 2.375rem;
       font-weight: bold;
-      font-family: "Poppins", sans-serif;
+       font-family:'Roboto', sans-serif !important;
   }
   #hero h1{
       color:#fff;
@@ -140,7 +140,7 @@ body {
   #header .logo a {
     /*color: #1a73e8;*/
     color:#ffffff;
-    font-family: 'Poppins', sans-serif;
+     font-family:'Roboto', sans-serif !important;
     font-size: 35px;
   }
   
@@ -202,7 +202,7 @@ body {
     transition: 0.3s;*/
     color: #ffffff;
     font-size: 0.875rem;
-    font-family: "Roboto", sans-serif;
+     font-family:'Roboto', sans-serif !important;
     text-align: justify;
     text-transform: uppercase;
     font-weight: 500;
@@ -253,7 +253,7 @@ body {
   
   .nav-menu .drop-down > a:after {
     content: "\ea99";
-    font-family: IcoFont;
+     font-family:'Roboto', sans-serif !important;
     padding-left: 5px;
   }
   
@@ -1894,7 +1894,7 @@ body {
       padding-bottom: 20px;
       position: relative;
       margin-bottom: 25px;
-      font-family: 'Roboto', sans-serif;
+       font-family:'Roboto', sans-serif !important;
       float: left;
       width: 100%;
   }

@@ -4,30 +4,61 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 import image from "./back.jpeg";
 import KeyNoteSpeakers from "./KeyNoteSpeakers";
+import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
-  // For Countdown
-  const countdown = () => {
-    const countDate = new Date("March 20, 2024 00:00:00").getTime();
-    const now = new Date().getTime();
-    const gap = countDate - now;
-
-    const second = 1000;
-    const minute = second * 60;
-    const hour = minute * 60;
-    const day = hour * 24;
-
-    const textDay = Math.floor(gap / day);
-    const textHour = Math.floor((gap % day) / hour);
-    const textminute = Math.floor((gap % hour) / minute);
-    const textsecond = Math.floor((gap % minute) / second);
-
-    document.querySelector(".day").innerText = textDay;
-    document.querySelector(".hour").innerText = textHour;
-    document.querySelector(".minute").innerText = textminute;
-    document.querySelector(".second").innerText = textsecond;
+  let navigate = useNavigate();
+  const routeChange = () => {
+    let path = `/registration`;
+    navigate(path);
   };
-  setInterval(countdown, 1000);
+  // For Countdown
+  useEffect(() => {
+    const countdown = () => {
+      const countDate = new Date("March 20, 2024 00:00:00").getTime();
+      const now = new Date().getTime();
+      const gap = countDate - now;
+
+      const second = 1000;
+      const minute = second * 60;
+      const hour = minute * 60;
+      const day = hour * 24;
+
+      const textDay = Math.floor(gap / day)
+        .toString()
+        .padStart(2, "0");
+      const textHour = Math.floor((gap % day) / hour)
+        .toString()
+        .padStart(2, "0");
+      const textminute = Math.floor((gap % hour) / minute)
+        .toString()
+        .padStart(2, "0");
+      const textsecond = Math.floor((gap % minute) / second)
+        .toString()
+        .padStart(2, "0");
+
+      const dayElement = document.querySelector(".day");
+      const hourElement = document.querySelector(".hour");
+      const minuteElement = document.querySelector(".minute");
+      const secondElement = document.querySelector(".second");
+
+      if (!dayElement || !hourElement || !minuteElement || !secondElement) {
+        clearInterval(intervalId);
+        return;
+      }
+
+      dayElement.innerText = textDay;
+      hourElement.innerText = textHour;
+      minuteElement.innerText = textminute;
+      secondElement.innerText = textsecond;
+    };
+
+    const intervalId = setInterval(countdown, 1000);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
 
   // For Tracks drop down
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -127,55 +158,65 @@ const HomePage = () => {
                                 Technology & Entrepreneurial Challenges in
                                 Dynamic Business Environment- MTEC 2024”
                               </p>
-                              <div
-                                className="hero-btns wow fadeInUp"
-                                data-wow-delay="1.5s"
-                                data-wow-duration="1s"
-                              >
-                                <a
-                                  href="/registration"
-                                  className="btn-fill style-five"
-                                >
-                                  Click here for paper submission and Acceptance
-                                  Details
-                                </a>
-                              </div>
 
                               {/* start of countdown */}
                               <section id="c">
-                                <h2 id="countt">COUNTDOWN :</h2>
+                                <h2 id="countt">BEGINS IN</h2>
                                 <div id="countdown" class="container-fluid">
-                                  <div classname="container-day">
+                                  <div id="d1" classname="container-day">
                                     <h3 id="day" className="day">
                                       Time
                                     </h3>
-                                    <h3 id="d">Days</h3>
+                                    <h5 id="d">Days</h5>
                                     <h3 id="d-mobile">D</h3>
                                   </div>
-                                  <div classname="container-hour">
+                                  <h1 id="colon">:</h1>
+                                  <div id="d2" classname="container-hour">
                                     <h3 id="hour" className="hour">
                                       Time
                                     </h3>
-                                    <h3 id="h">Hours</h3>
+                                    <h5 id="h">Hours</h5>
                                     <h3 id="h-mobile">H</h3>
                                   </div>
-                                  <div classname="container-minute">
+                                  <h1 id="colon">:</h1>
+                                  <div id="d3" classname="container-minute">
                                     <h3 id="minute" className="minute">
                                       Time
                                     </h3>
-                                    <h3 id="m">Minutes</h3>
+                                    <h5 id="m">Minutes</h5>
                                     <h3 id="m-mobile">M</h3>
                                   </div>
-                                  <div classname="container-second">
+                                  <h1 id="colon">:</h1>
+                                  <div id="d4" classname="container-second">
                                     <h3 id="second" className="second">
                                       Time
                                     </h3>
-                                    <h3 id="s">Seconds</h3>
+                                    <h5 id="s">Seconds</h5>
                                     <h3 id="s-mobile">S</h3>
                                   </div>
                                 </div>
                               </section>
-                              {/* end of countdown */}
+
+                              <button
+                                onClick={routeChange}
+                                id="tap"
+                                class="btn "
+                                role="button"
+                              >
+                                {" "}
+                                CLICK HERE FOR PAPER SUBMISSION AND ACCEPTANCE
+                                DETAILS
+                              </button>
+
+                              {/* <div className="hero-btns ">
+                                <a
+                                  href="/registration"
+                                  className="btn-fill style-one"
+                                >
+                                  Click here for paper submission and Acceptance
+                                  Details
+                                </a>
+                              </div> */}
                             </div>
                           </div>
                         </div>
@@ -920,7 +961,7 @@ const HomePage = () => {
                   {/* Call for papers */}
                   <div id="tab" class="list-item">
                     <h4 className="comn-hdg">Call for Papers :</h4>
-                    <p id="paper">
+                    <p>
                       Acharya Institute of Technology, invites you to associate
                       with us for the upcoming Conference -2024, a 2 Days
                       International Conference to be held on 20th and 21st March

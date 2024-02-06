@@ -29,7 +29,7 @@
 }
 
 @font-face {
-    font-family: star;
+     font-family:'Roboto', sans-serif !important;
     src: url(https://radiustheme.com/demo/wordpress/themes/evacon/wp-content/plugins/woocommerce/assets/css/../fonts/star.eot);
     src: url(https://radiustheme.com/demo/wordpress/themes/evacon/wp-content/plugins/woocommerce/assets/css/../fonts/star.eot#1704890483) format("embedded-opentype"), url(https://radiustheme.com/demo/wordpress/themes/evacon/wp-content/plugins/woocommerce/assets/css/../fonts/star.woff) format("woff"), url(https://radiustheme.com/demo/wordpress/themes/evacon/wp-content/plugins/woocommerce/assets/css/../fonts/star.ttf) format("truetype"), url(https://radiustheme.com/demo/wordpress/themes/evacon/wp-content/plugins/woocommerce/assets/css/../fonts/star.svg#star) format("svg");
     font-weight: 400;
@@ -36901,7 +36901,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(3) {
     align-items: center;
     justify-content: center;
     font-weight: 600;
-    font-family: Raleway, sans-serif;
+     font-family:'Roboto', sans-serif !important;
     font-size: 15px;
     position: relative;
     z-index: 1;
@@ -47941,7 +47941,7 @@ span.sd-time {
 }
 
 .pricing-box-layout2 .pricing-price {
-    font-family: Raleway, sans-serif;
+     font-family:'Roboto', sans-serif !important;
     font-size: 40px;
     font-weight: 700;
     margin-top: 15px;
@@ -48078,7 +48078,7 @@ span.sd-time {
     color: #fff;
     font-size: 48px;
     font-weight: 700;
-    font-family: Raleway, sans-serif;
+     font-family:'Roboto', sans-serif !important;
     margin-bottom: 30px
 }
 
@@ -48335,7 +48335,7 @@ span.sd-time {
 .faq-box .panel-heading .accordion-button {
     padding: 20px 20px 20px 30px;
     position: relative;
-    font-family: Raleway, sans-serif;
+     font-family:'Roboto', sans-serif !important;
     font-size: 22px;
     font-weight: 600;
     color: #041a57;
@@ -49049,7 +49049,7 @@ span.sd-time {
     position: absolute;
     color: #ee0034;
     transition: all .3s ease-in-out;
-    font-family: "Font Awesome 5 Free"
+     font-family:'Roboto', sans-serif !important;
 }
 
 .address-box .list-info ul li:last-child {
@@ -49159,7 +49159,7 @@ span.sd-time {
 .address-box.box-v2 .content-box .sub-title {
     font-size: 18px;
     font-weight: 500;
-    font-family: Raleway, sans-serif;
+     font-family:'Roboto', sans-serif !important;
     color: #2a07f9;
     transition: all .3s ease-in-out
 }
@@ -49251,7 +49251,7 @@ span.sd-time {
     color: #ee0034;
     font-size: 20px;
     font-weight: 600;
-    font-family: Raleway, sans-serif;
+     font-family:'Roboto', sans-serif !important;
     transition: all .3s ease-in-out
 }
 
@@ -49590,7 +49590,7 @@ span.sd-time {
     color: #5a5a5a;
     font-weight: 500;
     font-size: 18px;
-    font-family: Raleway, sans-serif
+     font-family:'Roboto', sans-serif !important;
 }
 
 .ocdi__gl-item {
