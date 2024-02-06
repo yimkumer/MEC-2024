@@ -6,6 +6,30 @@ import image from "./back.jpeg";
 import KeyNoteSpeakers from "./KeyNoteSpeakers";
 
 const HomePage = () => {
+  // For Countdown
+  const countdown = () => {
+    const countDate = new Date("March 20, 2024 00:00:00").getTime();
+    const now = new Date().getTime();
+    const gap = countDate - now;
+
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+
+    const textDay = Math.floor(gap / day);
+    const textHour = Math.floor((gap % day) / hour);
+    const textminute = Math.floor((gap % hour) / minute);
+    const textsecond = Math.floor((gap % minute) / second);
+
+    document.querySelector(".day").innerText = textDay;
+    document.querySelector(".hour").innerText = textHour;
+    document.querySelector(".minute").innerText = textminute;
+    document.querySelector(".second").innerText = textsecond;
+  };
+  setInterval(countdown, 1000);
+
+  // For Tracks drop down
   const [openDropdown, setOpenDropdown] = useState(null);
 
   const handleOpen = (index) => {
@@ -118,38 +142,39 @@ const HomePage = () => {
                               </div>
 
                               {/* start of countdown */}
-                              <div
-                                className="countdown-wrap-layout layout-1 wow fadeInUp"
-                                data-wow-delay="1.7s"
-                                data-wow-duration="1s"
-                                style={{
-                                  display: "inline-block",
-                                  height: "auto",
-                                }}
-                              >
-                                <div class="countdown-inner-wrap">
-                                  <div class="countdown-container">
-                                    <div class="countdown-heading">
-                                      <h3
-                                        style={{
-                                          letterSpacing: "1px",
-                                          fontSize: "120%",
-                                        }}
-                                        id="counter"
-                                        class="title"
-                                      >
-                                        COUNTDOWN :
-                                      </h3>
-                                    </div>
-                                    <div class="countdown-content">
-                                      <div
-                                        data-countdown="2024/03/20 09:00:00"
-                                        class="event-countdown"
-                                      ></div>
-                                    </div>
+                              <section id="c">
+                                <h2 id="countt">COUNTDOWN :</h2>
+                                <div id="countdown" class="container-fluid">
+                                  <div classname="container-day">
+                                    <h3 id="day" className="day">
+                                      Time
+                                    </h3>
+                                    <h3 id="d">Days</h3>
+                                    <h3 id="d-mobile">D</h3>
+                                  </div>
+                                  <div classname="container-hour">
+                                    <h3 id="hour" className="hour">
+                                      Time
+                                    </h3>
+                                    <h3 id="h">Hours</h3>
+                                    <h3 id="h-mobile">H</h3>
+                                  </div>
+                                  <div classname="container-minute">
+                                    <h3 id="minute" className="minute">
+                                      Time
+                                    </h3>
+                                    <h3 id="m">Minutes</h3>
+                                    <h3 id="m-mobile">M</h3>
+                                  </div>
+                                  <div classname="container-second">
+                                    <h3 id="second" className="second">
+                                      Time
+                                    </h3>
+                                    <h3 id="s">Seconds</h3>
+                                    <h3 id="s-mobile">S</h3>
                                   </div>
                                 </div>
-                              </div>
+                              </section>
                               {/* end of countdown */}
                             </div>
                           </div>
@@ -733,7 +758,7 @@ const HomePage = () => {
                         </ol>
                       </div>
                       <div class="list-item">
-                        <h4 className="comn-hdg" style={{ fontSize: "140%" }}>
+                        <h4 className="comn-hdg">
                           <span class="right-aligned">
                             International Advisory Committee :
                           </span>
@@ -830,14 +855,11 @@ const HomePage = () => {
                               <li>
                                 Dr. Renuka Devi, Associate Professor, MBA, AIT
                               </li>
-                              <li>Dr. Mahak Balani, Assistant Professor G-I</li>
+                              <li>Dr. Mahak Balani, Assistant Professor </li>
                               <li>
                                 Prof. Channakeshava HC, Assistant Professor
-                                G-III
                               </li>
-                              <li>
-                                Prof. Nethravathi N, Assistant Professor G-III
-                              </li>
+                              <li>Prof. Nethravathi N, Assistant Professor</li>
                               <li>Prof. Mudasir Rashid, Assistant Professor</li>
                               <li>Prof. Nikhita K, Assistant Professor</li>
                               <li>Prof. Anju A Nair, Assistant Professor</li>
@@ -855,15 +877,10 @@ const HomePage = () => {
                               <li>
                                 Dr. Ramesh C Raina, Associate Professor, MBA
                               </li>
-                              <li>
-                                Prof. Archana Vijay, Assistant Professor G-I
-                              </li>
-                              <li>
-                                Prof. Bhavya VM, Assistant Professor G-III
-                              </li>
+                              <li>Prof. Archana Vijay, Assistant Professor</li>
+                              <li>Prof. Bhavya VM, Assistant Professor</li>
                               <li>
                                 Prof. Harshita Kaushik, Assistant Professor
-                                G-III
                               </li>
                               <li>Prof. Dhanalakshmi C, Assistant Professor</li>
                               <li>
@@ -879,11 +896,9 @@ const HomePage = () => {
                           <td>
                             <ol style={{ textAlign: "left" }}>
                               <li>Prof. Pranav U, Associate Professor</li>
-                              <li>
-                                Prof. Suhas Patel, Assistant Professor G-II
-                              </li>
-                              <li>Prof. Anitabai, Assistant Professor G-III</li>
-                              <li>Prof. Kirthika, Assistant Professor G-III</li>
+                              <li>Prof. Suhas Patel, Assistant Professor</li>
+                              <li>Prof. Anitabai, Assistant Professor </li>
+                              <li>Prof. Kirthika, Assistant Professor </li>
                               <li>
                                 Prof. Sumit Singha Chowdhury, Assistant
                                 Professor
@@ -929,7 +944,7 @@ const HomePage = () => {
                           <img src="assets/down.png" alt="+" />
                         </p>
                         {openDropdown === 1 && (
-                          <ul className="menu">
+                          <ul id="mt1" className="menu">
                             <li>Rethinking HR: Home as Office</li>
                             <li>HR Role in World from Home Culture</li>
                             <li>Virtual Employee Engagement</li>
@@ -984,11 +999,11 @@ const HomePage = () => {
                         className="dropdown container-fluid"
                       >
                         <p id="t1" onClick={() => handleOpen(2)}>
-                          TRACK 2: ENTREPRENEURSHIP AND INNOVATIONS
+                          TRACK 2: ENTREPRENEURSHIP
                           <img src="assets/down.png" alt="+" />
                         </p>
                         {openDropdown === 2 && (
-                          <ul id="ts" className="menu">
+                          <ul id="mt2" className="menu">
                             <li>Small and Medium-Sized Enterprises ( SME )</li>
                             <li>
                               Entrepreneurship, Fin Tech and Investing in future
@@ -1021,7 +1036,7 @@ const HomePage = () => {
                           <img src="assets/down.png" alt="+" />
                         </p>
                         {openDropdown === 3 && (
-                          <ul className="menu">
+                          <ul id="mt3" className="menu">
                             <li>Business Analytics</li>
                             <li>Human Resource Analytics</li>
                             <li>Financial Analytics</li>
@@ -1073,31 +1088,33 @@ const HomePage = () => {
                       volume with ISBN and Following Indexing -
                     </p>
                   </div>
-                  {/* logos slider */}
-                  <section>
-                    <div class="logos">
-                      <div class="logos-slide">
-                        <img src="assets/image/cross.png" />
-                        <img src="assets/image/bpi.png" />
-                        <img src="assets/image/dimensions.png" />
-                        <img src="assets/image/open.png" />
-                        <img src="assets/image/scilit.png" />
-                        <img src="assets/image/semantic.png" />
-                      </div>
-                      <div class="logos-slide">
-                        <img src="assets/image/cross.png" />
-                        <img src="assets/image/bpi.png" />
-                        <img src="assets/image/dimensions.png" />
-                        <img src="assets/image/open.png" />
-                        <img src="assets/image/scilit.png" />
-                        <img src="assets/image/semantic.png" />
-                      </div>
-                    </div>
-                  </section>
                 </section>
               </div>
             </div>
           </div>
+          {/* logos slider */}
+          <section>
+            <div class="logos">
+              <div class="logos-slide">
+                <img src="assets/image/cross.png" />
+                <img src="assets/image/bpi.png" />
+                <img src="assets/image/dimensions.png" />
+                <img src="assets/image/open.png" />
+                <img src="assets/image/scilit.png" />
+                <img src="assets/image/semantic.png" />
+                <img src="assets/image/gscholar.png" />
+              </div>
+              <div class="logos-slide">
+                <img src="assets/image/cross.png" />
+                <img src="assets/image/bpi.png" />
+                <img src="assets/image/dimensions.png" />
+                <img src="assets/image/open.png" />
+                <img src="assets/image/scilit.png" />
+                <img src="assets/image/semantic.png" />
+                <img src="assets/image/gscholar.png" />
+              </div>
+            </div>
+          </section>
         </section>
       </div>
     </>

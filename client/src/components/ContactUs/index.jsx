@@ -121,9 +121,6 @@ const ContactUs = () => {
                               Click to join WhatsApp
                             </a>
                           </li>
-                          <li>
-                            {/* <a href="tel:+91 973-177-9233">+91 973-177-9233</a> */}
-                          </li>
                         </ul>
                       </div>
                     </div>

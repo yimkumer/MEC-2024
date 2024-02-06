@@ -7,8 +7,6 @@ import Register from "./registr";
 const Registration = () => {
   return (
     <div>
-      {/* <Header /> */}
-      {/* <Banner /> */}
       <Register />
       <Footer />
     </div>

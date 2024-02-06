@@ -255,7 +255,7 @@ const Register = () => {
             <h4 className="comn-hdg">PUBLICATION :</h4>
             <p>
               Publication : Selected Papers will be published in Book volume
-              with ISBN and Following Indexing
+              with ISBN and Following Indexing -
             </p>
           </div>
 
@@ -270,6 +270,7 @@ const Register = () => {
                 <img src="assets/image/open.png" />
                 <img src="assets/image/scilit.png" />
                 <img src="assets/image/semantic.png" />
+                <img src="assets/image/gscholar.png" />
               </div>
               <div class="logos-slide">
                 <img src="assets/image/cross.png" />
@@ -278,6 +279,7 @@ const Register = () => {
                 <img src="assets/image/open.png" />
                 <img src="assets/image/scilit.png" />
                 <img src="assets/image/semantic.png" />
+                <img src="assets/image/gscholar.png" />
               </div>
             </div>
           </section>

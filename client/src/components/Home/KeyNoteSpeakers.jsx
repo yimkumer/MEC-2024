@@ -17,12 +17,16 @@ const KeyNoteSpeakers = () => {
                       className="img-thumbnail"
                     />
                     <div className="b-wrapper col-sm-12">
-                      <span className="name">Dr. Prasenjit Dey</span>
+                      <span className="name">
+                        <p>Dr. Prasenjit Dey</p>
+                      </span>
                       <span className="designation">
                         {" "}
-                        Assistant Professor,Department of Computer Science and
-                        Engineering, National Institute of Technology Rourkela,
-                        India
+                        <p>
+                          Assistant Professor,Department of Computer Science and
+                          Engineering, National Institute of Technology
+                          Rourkela, India
+                        </p>
                       </span>
                     </div>
                   </div>
@@ -35,10 +39,14 @@ const KeyNoteSpeakers = () => {
                   <div className="img-holder">
                     <img src="assets/DrNikhil.png" className="img-thumbnail" />
                     <div className="b-wrapper col-sm-12">
-                      <span className="name">Dr. Nikhil Sikri</span>
+                      <span className="name">
+                        <p>Dr. Nikhil Sikri</p>
+                      </span>
                       <span className="designation">
                         {" "}
-                        Co-Founder & CEO at Zolo Bengaluru,karnataka - India
+                        <p>
+                          Co-Founder & CEO at Zolo Bengaluru,karnataka - India
+                        </p>
                       </span>
                     </div>
                   </div>
@@ -51,13 +59,17 @@ const KeyNoteSpeakers = () => {
                   <div className="img-holder">
                     <img src="assets/DrMousumi.png" className="img-thumbnail" />
                     <div className="b-wrapper col-sm-12">
-                      <span className="name">Dr. Mousumi Senguptay</span>
+                      <span className="name">
+                        <p>Dr. Mousumi Senguptay</p>
+                      </span>
                       <span className="designation">
                         {" "}
-                        M.A. (TVU, U.K.), GradIPD (IPD, U.K.), Ph.D. (IIT,
-                        Kharagpur) Chairperson - SDM Research Center for
-                        Management Studies (SDM RCMS) Editor-in-Chief- SDMIMD
-                        Journal of Management
+                        <p>
+                          M.A. (TVU, U.K.), GradIPD (IPD, U.K.), Ph.D. (IIT,
+                          Kharagpur) Chairperson - SDM Research Center for
+                          Management Studies (SDM RCMS) Editor-in-Chief- SDMIMD
+                          Journal of Management
+                        </p>
                       </span>
                     </div>
                   </div>
