@@ -165,7 +165,7 @@ const HomePage = () => {
                                 <div id="countdown" class="container-fluid">
                                   <div id="d1" classname="container-day">
                                     <h3 id="day" className="day">
-                                      Time
+                                      00
                                     </h3>
                                     <h5 id="d">Days</h5>
                                     <h3 id="d-mobile">D</h3>
@@ -173,7 +173,7 @@ const HomePage = () => {
                                   <h1 id="colon">:</h1>
                                   <div id="d2" classname="container-hour">
                                     <h3 id="hour" className="hour">
-                                      Time
+                                      00
                                     </h3>
                                     <h5 id="h">Hours</h5>
                                     <h3 id="h-mobile">H</h3>
@@ -181,7 +181,7 @@ const HomePage = () => {
                                   <h1 id="colon">:</h1>
                                   <div id="d3" classname="container-minute">
                                     <h3 id="minute" className="minute">
-                                      Time
+                                      00
                                     </h3>
                                     <h5 id="m">Minutes</h5>
                                     <h3 id="m-mobile">M</h3>
@@ -189,7 +189,7 @@ const HomePage = () => {
                                   <h1 id="colon">:</h1>
                                   <div id="d4" classname="container-second">
                                     <h3 id="second" className="second">
-                                      Time
+                                      00
                                     </h3>
                                     <h5 id="s">Seconds</h5>
                                     <h3 id="s-mobile">S</h3>
