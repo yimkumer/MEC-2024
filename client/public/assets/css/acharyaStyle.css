@@ -1930,7 +1930,7 @@ ul.impdt {
 	margin-bottom: 20px;
 }
 .comn-hdg {
-	font-size: 30px;
+	font-size: 30px !important;
 	line-height: 37px;
 	font-weight: bold;
 	padding-bottom: 20px;

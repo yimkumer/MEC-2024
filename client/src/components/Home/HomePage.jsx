@@ -184,7 +184,7 @@ const HomePage = () => {
 														id='tap'
 														className='custom-hero-btn'
 													>
-														PAPER SUBMISSION AND ACCEPTANCE DETAILS
+														VIEW PAPER SUBMISSION AND ACCEPTANCE DETAILS
 													</button>
 												</div>
 												<div className='custom-hero-right'>

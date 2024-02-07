@@ -297,8 +297,8 @@ const Register = () => {
 				<div id='i'>
 					<div className='elementor-widget-container'>
 						<div className='section-heading style-one'>
-							<div className='heading-subtitle' style={{ fontSize: 25 }}>
-								Reach out to us !
+							<div className='custom-heading-subtitle' style={{ fontSize: 25 }}>
+								Reach out to us!
 							</div>
 							<h2 className='heading-title' style={{ fontSize: 40 }}>
 								Find us here :
