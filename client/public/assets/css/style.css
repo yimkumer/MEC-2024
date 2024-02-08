@@ -10,15 +10,19 @@ p {
 td {
 	font-size: 19px;
 } */
-
+.track-content{
+	width: 100%;
+}
 #mt1 {
 	color: #fff;
 	background-color: #ec9220;
-	border-radius: 15px;
-	letter-spacing: 1px;
+	border-radius: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/* letter-spacing: 1px; */
 }
 #mt1 li {
-	padding: 10px;
+	padding: 4px 12px;
 }
 #mt2 {
 	color: #fff;
@@ -141,7 +145,7 @@ td {
 
 @media only screen and (max-width: 480px) {
 	#t1 {
-		max-width: 80%;
+		max-width: 100%;
 	}
 }
 
@@ -155,13 +159,14 @@ td {
 	border-radius: 5px;
 	cursor: pointer;
 	color: white;
-	text-align: center;
-	background-color: #093ed2;
+	/* font-size: 12px; */
+	/* text-align: center; */
+	background-color: #040489;
 	transition: background-color 0.2s ease-in-out;
 }
 
 #t1:hover {
-	background-color: #072e9c;
+	background-color: #040489;
 }
 
 #t1:active {
@@ -240,10 +245,10 @@ td {
 	margin-bottom: 20px;
 }
 ul li {
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 ol li {
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 #lists {

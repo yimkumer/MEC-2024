@@ -55,7 +55,7 @@ h1 {
 	width: 40px;
 	height: 40px;
 	border-radius: 4px;
-	background: #223983;
+	background: #040489;
 	color: #fff;
 	transition: all 0.4s;
 }
@@ -118,7 +118,7 @@ h1 {
   # Header
   --------------------------------------------------------------*/
 #header {
-	background: #223983;
+	background: #040489;
 	transition: all 0.5s;
 	z-index: 997;
 	padding: 6px 4px;
@@ -1834,14 +1834,14 @@ ul.impdt {
 	overflow: hidden;
 }
 .acdn-heading.accordion-open {
-	background: url(../img/open-btn.png) #223983 no-repeat 1.5% center;
+	background: url(../img/open-btn.png) #040489 no-repeat 1.5% center;
 	border: none;
 }
 .accordion {
 	float: left;
 	width: 100%;
 	text-align: left;
-	background: url(../img/close-btn.png) #223983 no-repeat 1.5% center;
+	background: url(../img/close-btn.png) #040489 no-repeat 1.5% center;
 	padding: 17px 20px 17px 70px;
 	font-size: 22px;
 	line-height: 22px;
@@ -1926,10 +1926,10 @@ ul.impdt {
 	margin-bottom: 20px;
 }
 .comn-hdg {
-	font-size: 30px !important;
+	font-size: 20px !important;
 	line-height: 37px;
 	font-weight: bold;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	position: relative;
 	margin-bottom: 25px;
 	font-family: 'Roboto', sans-serif !important;
@@ -1998,7 +1998,7 @@ ul.impdt {
 	content: '';
 	width: 52px;
 	height: 4px;
-	background: #223983;
+	background: #040489;
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 10px;
@@ -2088,7 +2088,7 @@ ul.impdt {
 .team-grids .img-holder {
 	border: 1px solid #ccc;
 	/* padding: 10px; */
-	height: 470px;
+	height: 450px;
 	-webkit-box-shadow: 3px 3px 5px 3px #ccc;
 	-moz-box-shadow: 3px 3px 5px 3px #ccc;
 	box-shadow: 3px 3px 5px 3px #ccc;
@@ -2151,9 +2151,10 @@ ul.impdt {
 	margin-bottom: 0px;
 }
 .b-wrapper span.name {
-	font-size: 1.1em;
-	color: #223983;
-	text-align: left;
+	font-size: 2em;
+	color: #040489;
+	font-weight: bold;
+	text-align: center;
 	font-family: 'Poppins', sans-serif;
 	display: block;
 }
@@ -2161,7 +2162,7 @@ ul.impdt {
 .b-wrapper span.qual {
 	font-size: 0.9em;
 	color: #818181;
-	text-align: left;
+	text-align: center;
 	font-family: 'Poppins', sans-serif;
 	display: block;
 }
@@ -2174,7 +2175,7 @@ ul.impdt {
 	color: #f49323;
 }
 .b-wrapper span.readmore:hover {
-	color: #223983;
+	color: #040489;
 }
 .modal.pre-modal .modal-dialog {
 	max-width: 700px;
@@ -2361,7 +2362,7 @@ ul.impdt {
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
 	max-width: 100%;
-	min-height: 300px;
+	min-height: 100px;
 }
 .folio-info-gallery {
 	height: 100%;
