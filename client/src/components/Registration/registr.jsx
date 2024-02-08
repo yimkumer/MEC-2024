@@ -367,31 +367,6 @@ const Register = () => {
 						</ul>
 					</div>
 				</div>
-
-				{/* <div
-            className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5d94011"
-            data-id="5d94011"
-            data-element_type="column"
-          >
-            <div className="elementor-widget-wrap elementor-element-populated">
-              <legend
-                className="ff_screen_reader_title"
-                style={{
-                  margin: "0!important",
-                  padding: "0!important",
-                  height: "0!important",
-                  textIndent: "-999999px",
-                  width: "0!important",
-                }}
-              >
-                Registration Form
-              </legend>
-              <legend className="ff_screen_reader_title">
-                MEC 2024 Registration Form :
-              </legend>
-              <MyForm />
-            </div>
-          </div> */}
 			</section>
 			<ContactUs />
 			<Map />
