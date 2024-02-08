@@ -78,7 +78,7 @@ const Register = () => {
 							</li>
 							<li>
 								Step 7: After the final confirmation for acceptance of the
-								manuscript from METC Editorial Board, author(s) will be notified
+								manuscript from MTEC Editorial Board, author(s) will be notified
 								through acceptance mail
 							</li>
 						</ul>

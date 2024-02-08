@@ -204,7 +204,7 @@ const HomePage = () => {
 																	00
 																</h3>
 																<h5 id='h'>Hours</h5>
-																<h3 id='h-mobile'>HOURS</h3>
+																<h3 id='h-mobile'>HRS</h3>
 															</div>
 															<h1 className='colon'>:</h1>
 															<div id='d3' className='container-minute'>
@@ -687,7 +687,7 @@ const HomePage = () => {
 															About the Conference :
 														</h4>
 														<p className='description'>
-															Welcome to METC 2024 - the International
+															Welcome to MTEC 2024 - the International
 															Conference on Management, Technology &
 															Entrepreneurial Challenges in a Dynamic Business
 															Environment. This collaborative event, hosted by
