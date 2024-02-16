@@ -1,7 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import { default as React, useEffect, useState } from 'react';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Tooltip from 'react-bootstrap/Tooltip';
 import image from './back.jpeg';
 import KeyNoteSpeakers from './KeyNoteSpeakers';
 import { useNavigate } from 'react-router-dom';
@@ -67,54 +65,9 @@ const HomePage = () => {
 		setOpenDropdown(openDropdown === index ? null : index);
 	};
 
-	const [showText1, setShowText1] = useState(false);
-	const [showText2, setShowText2] = useState(false);
-	const [showText3, setShowText3] = useState(false);
-
-	// To Hide the other text snippets when another is selected
-	const handleClick1 = () => {
-		setShowText1(!showText1);
-		setShowText2(false);
-		setShowText3(false);
-	};
-
-	const handleClick2 = () => {
-		setShowText2(!showText2);
-		setShowText1(false);
-		setShowText3(false);
-	};
-
-	const handleClick3 = () => {
-		setShowText3(!showText3);
-		setShowText1(false);
-		setShowText2(false);
-	};
-
 	useEffect(() => {
-		// Adding event listener to hide texts when clicking outside
-
-		// <script>
 		const copy = document.querySelector('.logos-slide').cloneNode(true);
 		document.querySelector('.logos').appendChild(copy);
-		// </script>;
-		const handleClickOutside = (event) => {
-			if (
-				event.target.closest('img[alt="Click to see text 1"]') !== null ||
-				event.target.closest('img[alt="Click to see text 2"]') !== null ||
-				event.target.closest('img[alt="Click to see text 3"]') !== null
-			)
-				return;
-			setShowText1(false);
-			setShowText2(false);
-			setShowText3(false);
-		};
-
-		document.addEventListener('click', handleClickOutside);
-
-		// Cleanup function to remove event listener when component unmounts
-		return () => {
-			document.removeEventListener('click', handleClickOutside);
-		};
 	}, []);
 
 	return (
@@ -226,80 +179,9 @@ const HomePage = () => {
 													</div>
 												</div>
 											</div>
-											{/* <div className='container'>
-												<div className='row justify-content-center'>
-													<div className='col-lg-9'>
-														<div className='hero-box-layout1 has-animation'>
-															<div className='shape-box'></div>
-															<p id='confernce'>
-																International Conference on “Management,
-																Technology & Entrepreneurial Challenges in
-																Dynamic Business Environment- MTEC 2024”
-															</p>
-
-															<section id='c'>
-																<h2 id='countt'>BEGINS IN</h2>
-																<div id='countdown' className='container-fluid'>
-																	<div id='d1' className='container-day'>
-																		<h3 id='day' className='day'>
-																			00
-																		</h3>
-																		<h5 id='d'>Days</h5>
-																		<h3 id='d-mobile'>D</h3>
-																	</div>
-																	<h1 className='colon'>:</h1>
-																	<div id='d2' className='container-hour'>
-																		<h3 id='hour' className='hour'>
-																			00
-																		</h3>
-																		<h5 id='h'>Hours</h5>
-																		<h3 id='h-mobile'>H</h3>
-																	</div>
-																	<h1 className='colon'>:</h1>
-																	<div id='d3' className='container-minute'>
-																		<h3 id='minute' className='minute'>
-																			00
-																		</h3>
-																		<h5 id='m'>Minutes</h5>
-																		<h3 id='m-mobile'>M</h3>
-																	</div>
-																	<h1 className='colon'>:</h1>
-																	<div id='d4' className='container-second'>
-																		<h3 id='second' className='second'>
-																			00
-																		</h3>
-																		<h5 id='s'>Seconds</h5>
-																		<h3 id='s-mobile'>S</h3>
-																	</div>
-																</div>
-															</section>
-
-															<button
-																onClick={routeChange}
-																id='tap'
-																className='btn '
-															>
-																{' '}
-																CLICK HERE FOR PAPER SUBMISSION AND ACCEPTANCE
-																DETAILS
-															</button>
-														</div>
-													</div>
-												</div>
-											</div> */}
 										</div>
 									</div>
 								</div>
-
-								{/* <div className="hero-btns ">
-                                <a
-                                  href="/registration"
-                                  className="btn-fill style-one"
-                                >
-                                  Click here for paper submission and Acceptance
-                                  Details
-                                </a>
-                              </div> */}
 								<div
 									className='elementor-element elementor-element-6353059 elementor-widget elementor-widget-rt-countdown'
 									data-id={6353059}
@@ -328,190 +210,96 @@ const HomePage = () => {
 									data-element_type='section'
 								>
 									{/* INTERNATIONAL COLLABORATION UNI LOGOS */}
-									<div
-										className='elementor-element elementor-element-8bec65b elementor-align-left elementor-widget elementor-widget-rt-title'
-										data-id='8bec65b'
-										data-element_type='widget'
-										data-widget_type='rt-title.default'
-									>
-										<div className='elementor-widget-container'>
-											<div className='section-heading style-one'>
-												<div className='custom-heading-subtitle'>
-													International Collaboration Universities
-												</div>
-												<div className='image-gallery'>
-													{/* Acharya */}
-													<OverlayTrigger
-														overlay={(props) => (
-															<Tooltip {...props}>
-																Click the Logo for more Info
-															</Tooltip>
-														)}
-														placement='bottom'
-													>
-														<img
-															src='assets/college.png'
-															alt='Click to see text 1'
-															id='a'
-															onClick={handleClick1}
-														/>
-													</OverlayTrigger>
-
-													{/* Budi */}
-
-													<OverlayTrigger
-														overlay={(props) => (
-															<Tooltip {...props}>
-																Click the Logo for more Info
-															</Tooltip>
-														)}
-														placement='bottom'
-													>
-														<img
-															src='assets/budi.png'
-															alt='Click to see text 2'
-															id='b'
-															onClick={handleClick2}
-														/>
-													</OverlayTrigger>
-
-													{/* Ukraine */}
-
-													<OverlayTrigger
-														overlay={(props) => (
-															<Tooltip {...props}>
-																Click the Logo for more Info
-															</Tooltip>
-														)}
-														placement='bottom'
-													>
-														<img
-															src='assets/ukraine.png'
-															alt='Click to see text 3'
-															id='c'
-															onClick={handleClick3}
-														/>
-													</OverlayTrigger>
-												</div>
-											</div>
+									<div className='logos'>
+										<div className='logos-slide'>
+											<a
+												href='https://www.acharya.ac.in/'
+												target='_blank'
+												rel='noreferrer'
+											>
+												<img alt='-' src='assets/college.png' />
+											</a>
+											<a
+												href='https://www.budiluhur.ac.id/'
+												target='_blank'
+												rel='noreferrer'
+											>
+												<img alt='-' src='assets/budi.png' />
+											</a>
+											<a
+												href='https://www.duet.edu.ua/en'
+												target='_blank'
+												rel='noreferrer'
+											>
+												<img alt='-' src='assets/ukraine.jpeg' />
+											</a>
+											<a
+												href='https://www.acharya.uz/'
+												target='_blank'
+												rel='noreferrer'
+											>
+												<img alt='-' src='assets/Acharya Uzbek.png' />
+											</a>
+											<a
+												href='https://vtu.ac.in/'
+												target='_blank'
+												rel='noreferrer'
+											>
+												<img alt='-' src='assets/vtu-logo.png' />
+											</a>
+											<a
+												href='https://students.ieee.org/student-branches/'
+												target='_blank'
+												rel='noreferrer'
+											>
+												<img alt='-' src='assets/ieee.png' />
+											</a>
+										</div>
+										<div className='logos-slide'>
+											<a
+												href='https://www.acharya.ac.in/'
+												target='_blank'
+												rel='noreferrer'
+											>
+												<img alt='-' src='assets/college.png' />
+											</a>
+											<a
+												href='https://www.budiluhur.ac.id/'
+												target='_blank'
+												rel='noreferrer'
+											>
+												<img alt='-' src='assets/budi.png' />
+											</a>
+											<a
+												href='https://www.duet.edu.ua/en'
+												target='_blank'
+												rel='noreferrer'
+											>
+												<img alt='-' src='assets/ukraine.jpeg' />
+											</a>
+											<a
+												href='https://www.acharya.uz/'
+												target='_blank'
+												rel='noreferrer'
+											>
+												<img alt='-' src='assets/Acharya Uzbek.png' />
+											</a>
+											<a
+												href='https://vtu.ac.in/'
+												target='_blank'
+												rel='noreferrer'
+											>
+												<img alt='-' src='assets/vtu-logo.png' />
+											</a>
+											<a
+												href='https://students.ieee.org/student-branches/'
+												target='_blank'
+												rel='noreferrer'
+											>
+												<img alt='-' src='assets/ieee.png' />
+											</a>
 										</div>
 									</div>
-									<div
-										id='info'
-										className='container-fluid text-center font-weight-light blockquote-footer'
-									>
-										Click on any of the Logos for more Info
-									</div>
-									{/* Colleges Information Paragraph */}
-									<div
-										id='colleges'
-										className={`container-fluid text-center ${
-											showText1 ? '' : 'hidden'
-										}`}
-									>
-										{showText1 && (
-											<p style={{ color: '#EC9220' }}>
-												<em>
-													" Acharya Institutes is one of the best colleges in
-													India! Spread across 120 acres of pristine land in
-													Bengaluru India's 'technology hub' and located only a
-													few minutes drive from top-notch multinational
-													companies and Indian corporates, the Acharya campus is
-													a magnificent sight, to begin with. Being counted
-													amongst the top colleges in Bangalore, Acharya hosts
-													its student-centric design and innovative blend of
-													modern and traditional styles of architecture, the
-													campus is a perfect setting for the students to let
-													their ideas fly and get closer to realizing their
-													dreams. Here the emphasis is on experiential and
-													collaborative learning and our students learn the ways
-													of the world directly from each other, with the campus
-													being home to students from no less than 75 countries
-													" <br />
-												</em>
-												<strong>
-													<a
-														href='https://www.acharya.ac.in/'
-														target='_blank'
-														rel='noreferrer'
-													>
-														- Know More
-													</a>
-												</strong>
-											</p>
-										)}
-									</div>
-									{/* Colleges Information Paragraph */}
-									<div
-										id='colleges'
-										className={`container-fluid text-center ${
-											showText2 ? '' : 'hidden'
-										}`}
-									>
-										{showText2 && (
-											<p style={{ color: '#EC9220' }}>
-												<em>
-													" Universitas Budi Luhur established with a noble
-													aspiration to mold intelligent individuals with
-													virtuous character which produces individuals who are
-													not only intellectually capable but also possess a
-													noble character. The entire academic community at
-													Universitas Budi Luhur deeply understands the
-													founder's values of 'kebudiluhuran' (noble character):
-													intelligence and moral integrity are intertwined and
-													inseparable. Intelligence, without a foundation of
-													noble character, may be used to deceive and harm
-													others. Conversely, virtuous character without the
-													balance of intelligence may make one susceptible to
-													crime and oppression by others. Located in Jakarta,
-													the bustling capital of Indonesia, our institution has
-													academic excellence which holds the unique distinction
-													of being the first computer science institute in the
-													country, originally established as the Akademi Ilmu
-													Komputer Budi Luhur " <br />
-												</em>
-												<strong>
-													<a
-														href='https://www.budiluhur.ac.id/'
-														target='_blank'
-														rel='noreferrer'
-													>
-														- Know More
-													</a>
-												</strong>
-											</p>
-										)}
-									</div>
-									{/* Colleges Information Paragraph */}
-									<div
-										id='colleges'
-										className={`container-fluid text-center ${
-											showText3 ? '' : 'hidden'
-										}`}
-									>
-										{showText3 && (
-											<p style={{ color: '#EC9220' }}>
-												<em>
-													" State University of Economics and Technology, also
-													in the past known as Kryvyi Rih Institute of
-													Economics, located in Kryvyi Rih, Ukraine was founded
-													in 1966 as a branch of Donetsk Institute of Soviet
-													Trade. In 1977, it became a branch of Kyiv National
-													Economic University " <br />
-												</em>
-												<strong>
-													<a
-														href='https://www.duet.edu.ua/en'
-														target='_blank'
-														rel='noreferrer'
-													>
-														- Know More
-													</a>
-												</strong>
-											</p>
-										)}
-									</div>
-
 									<div
 										id='info2'
 										className='container-fluid text-center font-weight-heavy'
@@ -842,7 +630,7 @@ const HomePage = () => {
 										<div id='f1' className='lists-grid'>
 											<div className='list-item'>
 												<h4 className='comn-hdg'>
-													<span className='right-aligned'>Patrons :</span>
+													<span className='right-aligned'>Chief Patrons :</span>
 												</h4>
 												<ol>
 													<li>
@@ -853,18 +641,20 @@ const HomePage = () => {
 														Shri B Premnath Reddy, Chairman, Acharya Institutes,
 														Bangalore
 													</li>
+												</ol>
+												<h4 className='comn-hdg'>
+													<span className='right-aligned'>Patrons :</span>
+												</h4>
+												<ol>
 													<li>
-														{' '}
 														Smt. Shalini Reddy, Executive Director, Acharya
 														Institutes, Bangalore
 													</li>
 													<li>
-														{' '}
 														Mr. Krishna Basani Reddy, Managing Director, Acharya
 														Institutes, Bangalore
 													</li>
 													<li>
-														{' '}
 														Shri C B M Bhooshan ES to Chairman, Acharya
 														Institutes, Bangalore{' '}
 													</li>
@@ -882,17 +672,25 @@ const HomePage = () => {
 												</h4>
 												<ol>
 													<li>
+														Dr. Vigneshwaran P,Vice Rector Academics,Acharya
+														University,Uzbekistan
+													</li>
+													<li>
 														Dr. Zulvia Khalid, MM, UNIVERSITAS BUDI LUHUR,
 														Indonesia
 													</li>
 													<li>Dr. Ririt Roeswidiah, UNIVERSITAS BUDI LUHUR</li>
 													<li>
 														Dr. Mohammad Syafrullah, M.Kom, M.Sc, Head of
-														Research Sub/Directorate
+														Research Sub/Directorate, Ukraine
 													</li>
 													<li>
 														Victoria SOLOVIEVA, Assoc. Prof. PhD, State
 														University of Economics and Technology, Ukraine
+													</li>
+													<li>
+														Dr. Ajith Padyana,Vice Rector, Acharya
+														University,Uzbekistan
 													</li>
 												</ol>
 											</div>
@@ -904,12 +702,16 @@ const HomePage = () => {
 												</h4>
 												<ol>
 													<li>
+														Dr. B.E. Rangaswamy Davangere. Registrar Evaluation,
+														VTU Belagavi,India
+													</li>
+													<li>
 														Dr. Rajashekhar Patil, Head, Quality assurance,
-														Acharya Institutes, Bangalore
+														Acharya Institutes, Bangalore,India
 													</li>
 													<li>
 														Dr. Rajeswari, Dean of Academics Acharya Institute
-														of Technology, Bangalore
+														of Technology, Bangalore,India
 													</li>
 													<li>
 														Dr. Justin Jeya Amutha K, Assistant Director of
@@ -1113,7 +915,7 @@ const HomePage = () => {
 											{/* Track 2 */}
 											<div className='dropdown container-fluid'>
 												<p id='t1' onClick={() => handleOpen(2)}>
-													TRACK 2: ENTREPRENEURSHIP
+													TRACK 2: ENTREPRENEURSHIP AND INNOVATIONS
 													<img src='assets/down.png' alt='+' />
 												</p>
 												{openDropdown === 2 && (
@@ -1146,44 +948,40 @@ const HomePage = () => {
 											{/* Track 3 */}
 											<div className='dropdown container-fluid'>
 												<p id='t1' onClick={() => handleOpen(3)}>
-													TRACK 3: TECHNOLOGY AND OPERATIONS
+													TRACK 3: EMERGING TECHNOLOGIES AND OTHER ALLIED AREAS
 													<img src='assets/down.png' alt='+' />
 												</p>
 												{openDropdown === 3 && (
 													<ul id='mt3' className='menu'>
-														<li>Business Analytics</li>
-														<li>Human Resource Analytics</li>
-														<li>Financial Analytics</li>
-														<li>Operations Analytics</li>
-														<li>Marketing Analytics</li>
-														<li>Supply Chain Analytics</li>
-														<li>Ted Analytics</li>
-														<li>Image Analytics</li>
-														<li>Web Analytics</li>
-														<li>Social Media Analytics</li>
-														<li>Fraud Analytics</li>
-														<li>Macro Environment</li>
-														<li>PEST</li>
-														<li>Corporate Social Responsibility</li>
-														<li>Micro Environment</li>
-														<li>Multi culture Research</li>
-														<li>Business Ethics and Values</li>
-														<li>IPR, Patents and Acquisitions</li>
-														<li>Urban and Regional Planning</li>
-														<li>Digital Transformation</li>
-														<li>Covid-19 Disruption</li>
-														<li>Globalization and Governance Human Values</li>
 														<li>
-															Organizational Value Business for Social
-															Responsibility
+															Artificial Intelligence (AI) and Machine Learning
 														</li>
-														<li>Global Warming and Health Implications</li>
-														<li>Social Media Sentiment Analysis</li>
-														<li>Online Fake Review Detection</li>
-														<li>Generative AI for Business Decision Making</li>
-														<li>Fake News Detection</li>
-														<li>Digital Financial Data Security</li>
-														<li>Digital Healthcare</li>
+														<li>
+															(ML) Internet of Things (IoT) Blockchain and
+														</li>
+														<li>
+															Cryptocurrency: Biotechnology and Bioinformatics
+														</li>
+														<li>Renewable Energy and Sustainability Quantum</li>
+														<li>
+															Computing Augmented Reality (AR) and Virtual
+															Reality
+														</li>
+														<li>(VR) Cybersecurity 5G and Next-Generation</li>
+														<li>
+															Connectivity Space Exploration and New Space
+														</li>
+														<li>
+															Technologies Sustainability and Green Technologies
+														</li>
+														<li>
+															Ethical and Societal Implications Generative AI
+															for
+														</li>
+														<li>
+															Business Decision Making Digital Financial Data
+														</li>
+														<li>Security Digital Transformation</li>
 													</ul>
 												)}
 											</div>
