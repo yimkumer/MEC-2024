@@ -667,7 +667,7 @@ const HomePage = () => {
 											<div className='list-item'>
 												<h4 className='comn-hdg'>
 													<span className='right-aligned'>
-														International Advisory Committee :
+														INTERNATIONAL ADVISORY COMMITTEE :
 													</span>
 												</h4>
 												<ol>
@@ -697,7 +697,7 @@ const HomePage = () => {
 											<div className='list-item'>
 												<h4 className='comn-hdg'>
 													<span className='right-aligned'>
-														National Advisory Committee :
+														NATIONAL ADVISORY COMMITTEE :
 													</span>
 												</h4>
 												<ol>
@@ -762,8 +762,83 @@ const HomePage = () => {
 										</div>
 									</div>
 
-									{/* Committe Members */}
 									<div id='tab' className='list-item'>
+										<h4 className='comn-hdg'>COMMITTEE MEMBERS :</h4>
+
+										{/* Track 1 */}
+										<div className='track-content'>
+											<div className='dropdown container-fluid'>
+												<p id='t1' onClick={() => handleOpen(1)}>
+													<img src='assets/down.png' alt='+' />
+													PROGRAMME COMMITTEE
+												</p>
+												{openDropdown === 1 && (
+													<ol style={{ textAlign: 'left' }} id='mt1'>
+														<li>
+															Dr. Renuka Devi, Associate Professor, MBA, AIT
+														</li>
+														<li>Dr. Mahak Balani, Assistant Professor </li>
+														<li>Prof. Channakeshava HC, Assistant Professor</li>
+														<li>Prof. Nethravathi N, Assistant Professor</li>
+														<li>Prof. Mudasir Rashid, Assistant Professor</li>
+														<li>Prof. Nikhita K, Assistant Professor</li>
+														<li>Prof. Anju A Nair, Assistant Professor</li>
+														<li>
+															Prof. Anila Raveendran Nambiar, Assistant
+															Professor
+														</li>
+													</ol>
+												)}
+											</div>
+
+											{/* Track 2 */}
+											<div className='dropdown container-fluid'>
+												<p id='t1' onClick={() => handleOpen(2)}>
+													<img src='assets/down.png' alt='+' />
+													ORGANIZING COMMITTEE
+												</p>
+												{openDropdown === 2 && (
+													<ol style={{ textAlign: 'left' }} id='mt1'>
+														<li>
+															Dr. Ramesh C Raina, Associate Professor, MBA
+														</li>
+														<li>Prof. Archana Vijay, Assistant Professor</li>
+														<li>Prof. Bhavya VM, Assistant Professor</li>
+														<li>Prof. Harshita Kaushik, Assistant Professor</li>
+														<li>Prof. Dhanalakshmi C, Assistant Professor</li>
+														<li>
+															Prof. Rajendra Mahesh Jotawar, Assistant Professor
+														</li>
+														<li>Prof. Rohith, Assistant Professor</li>
+													</ol>
+												)}
+											</div>
+
+											{/* Track 3 */}
+											<div className='dropdown container-fluid'>
+												<p id='t1' onClick={() => handleOpen(3)}>
+													<img src='assets/down.png' alt='+' />
+													SCIENTIFIC COMMITTEE
+												</p>
+												{openDropdown === 3 && (
+													<ol style={{ textAlign: 'left' }} id='mt1'>
+														<li>Prof. Pranav U, Associate Professor</li>
+														<li>Prof. Suhas Patel, Assistant Professor</li>
+														<li>Prof. Anitabai, Assistant Professor </li>
+														<li>Prof. Kirthika, Assistant Professor </li>
+														<li>
+															Prof. Sumit Singha Chowdhury, Assistant Professor
+														</li>
+														<li>Prof. S Harshini, Assistant Professor</li>
+														<li>Prof. Yogesh Dixit, Assistant Professor</li>
+													</ol>
+												)}
+											</div>
+										</div>
+									</div>
+
+									{/* Committe Members */}
+									{/* <div id='tab' className='list-item'>
 										<h4 className='comn-hdg'>Committee Members :</h4>
 										<table>
 											<tbody>
@@ -829,7 +904,7 @@ const HomePage = () => {
 												</tr>
 											</tbody>
 										</table>
-									</div>
+									</div> */}
 
 									{/* Resource Persons */}
 									<div id='tab' className='list-item'>
@@ -852,15 +927,16 @@ const HomePage = () => {
 									</div>
 
 									{/* TRACK DETAILS */}
+
 									<div id='tab' className='list-item'>
-										<h4 className='comn-hdg'>Technical Tracks :</h4>
+										<h4 className='comn-hdg'>TECHNICAL TRACKS :</h4>
 
 										{/* Track 1 */}
-										<div>
+										<div className='track-content'>
 											<div className='dropdown container-fluid'>
 												<p id='t1' onClick={() => handleOpen(1)}>
-													TRACKS 1: MANAGEMENT ( HR, Marketing, Finance )
 													<img src='assets/down.png' alt='+' />
+													TRACKS 1: MANAGEMENT ( HR, Marketing, Finance )
 												</p>
 												{openDropdown === 1 && (
 													<ul id='mt1' className='menu'>
@@ -917,9 +993,10 @@ const HomePage = () => {
 												<p id='t1' onClick={() => handleOpen(2)}>
 													TRACK 2: ENTREPRENEURSHIP AND INNOVATIONS
 													<img src='assets/down.png' alt='+' />
+													TRACK 2: ENTREPRENEURSHIP
 												</p>
 												{openDropdown === 2 && (
-													<ul id='mt2' className='menu'>
+													<ul id='mt1' className='menu'>
 														<li>Small and Medium-Sized Enterprises ( SME )</li>
 														<li>
 															Entrepreneurship, Fin Tech and Investing in future
@@ -950,6 +1027,7 @@ const HomePage = () => {
 												<p id='t1' onClick={() => handleOpen(3)}>
 													TRACK 3: EMERGING TECHNOLOGIES AND OTHER ALLIED AREAS
 													<img src='assets/down.png' alt='+' />
+													TRACK 3: TECHNOLOGY AND OPERATIONS
 												</p>
 												{openDropdown === 3 && (
 													<ul id='mt3' className='menu'>
