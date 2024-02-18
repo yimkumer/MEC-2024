@@ -143,13 +143,13 @@ const Register = () => {
 									<td style={{ padding: '10px' }}>
 										Submission Deadline abstract, poster and oral presentation :
 									</td>
-									<td style={{ padding: '10px' }}>Feb 25, 2024</td>
+									<td style={{ padding: '10px' }}>February 25, 2024</td>
 								</tr>
 								<tr>
 									<td style={{ padding: '10px' }}>
 										Acceptance Notification and Registration Starts :
 									</td>
-									<td style={{ padding: '10px' }}>Mar 1, 2024</td>
+									<td style={{ padding: '10px' }}>March 1, 2024</td>
 								</tr>
 								<tr>
 									<td style={{ padding: '10px' }}>

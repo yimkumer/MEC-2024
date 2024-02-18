@@ -238,7 +238,7 @@ const HomePage = () => {
 												target='_blank'
 												rel='noreferrer'
 											>
-												<img alt='-' src='assets/Acharya Uzbek.png' />
+												<img alt='-' src='assets/achuzb.jpeg' />
 											</a>
 											<a
 												href='https://vtu.ac.in/'
@@ -282,7 +282,7 @@ const HomePage = () => {
 												target='_blank'
 												rel='noreferrer'
 											>
-												<img alt='-' src='assets/Acharya Uzbek.png' />
+												<img alt='-' src='assets/achuzb.jpeg' />
 											</a>
 											<a
 												href='https://vtu.ac.in/'
